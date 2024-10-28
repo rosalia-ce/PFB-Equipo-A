@@ -1,5 +1,6 @@
 import streamlit as st
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 =======
 import pandas as pd
@@ -7,6 +8,13 @@ import numpy as np
 import requests
 from PIL import Image
 
+=======
+import pandas as pd
+import numpy as np
+import requests
+from PIL import Image
+
+>>>>>>> Stashed changes
 
 st.header("1 · EVOLUCIÓN EN EL TIEMPO")
 st.markdown(" - Dashboard Interactivo: Visualización de la evolución en el tiempo, métricas (rentabilidad, volatilidad y Sharpe ratio) ")
@@ -64,5 +72,9 @@ st.info("B - KPI (rentabilidad)")
 #st.dataframe(dir(st))
 
 st.write("csv")
+<<<<<<< Updated upstream
+#st.dataframe(df)
+>>>>>>> Stashed changes
+=======
 #st.dataframe(df)
 >>>>>>> Stashed changes
