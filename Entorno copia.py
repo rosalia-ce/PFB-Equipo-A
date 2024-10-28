@@ -1,7 +1,4 @@
 import streamlit as st
-<<<<<<< Updated upstream
-
-=======
 import pandas as pd
 import numpy as np
 import requests
@@ -65,4 +62,3 @@ st.info("B - KPI (rentabilidad)")
 
 st.write("csv")
 #st.dataframe(df)
->>>>>>> Stashed changes

@@ -1,7 +1,4 @@
 import streamlit as st
-<<<<<<< Updated upstream
-
-=======
 import pandas as pd
 import numpy as np
 import requests
@@ -11,19 +8,23 @@ from PIL import Image
 st.header("1 · EVOLUCIÓN EN EL TIEMPO")
 st.markdown(" - Dashboard Interactivo: Visualización de la evolución en el tiempo, métricas (rentabilidad, volatilidad y Sharpe ratio) ")
 st.info("A - Descripción de la Industria Tecnológica. Grafica 5 años")
-image = Image.open("/Users/DATA/Desktop/PFB-Equipo-A/descarga (1).jpeg")
-st.image(image, caption="foto1", use_column_width=True)
+#image = Image.open("/Users/DATA/Desktop/PFB-Equipo-A/descarga (1).jpeg")
+#st.image(image, caption="foto1", use_column_width=True)
 
+#uploaded_file = st.file_uploader("/Users/DATA/Desktop/PFB-Equipo-A/CSV/stocks_20241024.csv", type=["csv"])
+
+df=pd.read_csv("/Users/DATA/Desktop/PFB-Equipo-A/CSV/stocks_20241024.csv")
+df
 st.info("B - Descripción de la acción, añadir intervalo de fechas. 3 Graficas metricas, 1 año, mensual y diario ")
-image1 = Image.open("/Users/DATA/Desktop/PFB-Equipo-A/imagenes para streamlit /descarga (2).jpeg")
-image2 = Image.open("/Users/DATA/Desktop/PFB-Equipo-A/imagenes para streamlit /descarga (4).jpeg")
-image3 = Image.open("/Users/DATA/Desktop/PFB-Equipo-A/imagenes para streamlit /descarga (5).jpeg")
+#image1 = Image.open("/Users/DATA/Desktop/PFB-Equipo-A/imagenes para streamlit /descarga (2).jpeg")
+#image2 = Image.open("/Users/DATA/Desktop/PFB-Equipo-A/imagenes para streamlit /descarga (4).jpeg")
+#image3 = Image.open("/Users/DATA/Desktop/PFB-Equipo-A/imagenes para streamlit /descarga (5).jpeg")
 
-st.image(
-    [image1, image2, image3], 
-    caption=["descarga(2)",   "descarga(4)",   "descarga(5)"], 
-    width=100
-)
+#st.image(
+ #   [image1, image2, image3], 
+#    caption=["descarga(2)",   "descarga(4)",   "descarga(5)"], 
+ #   width=100
+#)
 
 st.header("2 · COMPARADOR DE ACTIVOS")
 st.markdown(" - Comparador de Activos: Herramienta para comparar el rendimiento de diferentes acciones. ")
@@ -65,4 +66,3 @@ st.info("B - KPI (rentabilidad)")
 
 st.write("csv")
 #st.dataframe(df)
->>>>>>> Stashed changes

@@ -1,0 +1,819 @@
+,date,firm,to_grade,from_grade,action,ticker,extraction_timestamp
+0,2024-10-18 11:15:27,B of A Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+1,2024-10-11 13:55:04,Goldman Sachs,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+2,2024-10-10 12:29:45,Morgan Stanley,Overweight,Overweight,reit,NVDA,2024-10-24 13:07:28
+3,2024-10-08 19:45:05,Cantor Fitzgerald,Overweight,Overweight,reit,NVDA,2024-10-24 13:07:28
+4,2024-10-08 14:41:59,UBS,Buy,Buy,reit,NVDA,2024-10-24 13:07:28
+5,2024-09-18 17:10:44,William Blair,Outperform,,init,NVDA,2024-10-24 13:07:28
+6,2024-09-05 17:23:05,B of A Securities,Buy,Buy,reit,NVDA,2024-10-24 13:07:28
+7,2024-08-29 17:33:59,Bernstein,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+8,2024-08-29 16:45:57,Piper Sandler,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+9,2024-08-29 16:40:45,Wedbush,Outperform,Outperform,reit,NVDA,2024-10-24 13:07:28
+10,2024-08-29 15:07:09,Cantor Fitzgerald,Overweight,Overweight,reit,NVDA,2024-10-24 13:07:28
+11,2024-08-29 14:39:12,DA Davidson,Neutral,Neutral,main,NVDA,2024-10-24 13:07:28
+12,2024-08-29 14:34:27,Benchmark,Buy,Buy,reit,NVDA,2024-10-24 13:07:28
+13,2024-08-29 13:37:12,Truist Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+14,2024-08-29 13:34:56,JP Morgan,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+15,2024-08-29 12:54:06,Morgan Stanley,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+16,2024-08-29 12:52:38,WestPark Capital,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+17,2024-08-29 12:42:02,Craig-Hallum,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+18,2024-08-29 12:25:45,Wells Fargo,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+19,2024-08-29 12:11:40,B of A Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+20,2024-08-29 12:02:22,Rosenblatt,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+21,2024-08-29 11:54:56,Baird,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+22,2024-08-29 10:48:00,Needham,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+23,2024-08-29 09:49:39,Raymond James,Strong Buy,Strong Buy,main,NVDA,2024-10-24 13:07:28
+24,2024-08-29 09:41:07,Mizuho,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+25,2024-08-27 12:41:15,Truist Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+26,2024-08-26 13:03:04,Loop Capital,Buy,Buy,reit,NVDA,2024-10-24 13:07:28
+27,2024-08-23 16:33:54,Wedbush,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+28,2024-08-23 13:05:35,Evercore ISI Group,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+29,2024-08-22 13:19:03,Rosenblatt,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+30,2024-08-21 15:11:54,HSBC,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+31,2024-08-19 15:16:36,Goldman Sachs,Buy,Buy,reit,NVDA,2024-10-24 13:07:28
+32,2024-08-06 14:41:31,New Street Research,Buy,Neutral,up,NVDA,2024-10-24 13:07:28
+33,2024-08-05 17:54:29,Goldman Sachs,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+34,2024-08-05 17:53:09,Deutsche Bank,Hold,Hold,main,NVDA,2024-10-24 13:07:28
+35,2024-07-22 15:57:23,Loop Capital,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+36,2024-07-22 11:45:40,Piper Sandler,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+37,2024-07-15 16:01:02,TD Cowen,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+38,2024-07-12 11:10:54,Benchmark,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+39,2024-07-09 11:31:58,Keybanc,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+40,2024-07-08 13:35:43,UBS,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+41,2024-07-05 12:50:24,New Street Research,Neutral,Buy,down,NVDA,2024-10-24 13:07:28
+42,2024-07-01 11:06:48,Morgan Stanley,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+43,2024-06-27 13:16:12,Truist Securities,Buy,Buy,reit,NVDA,2024-10-24 13:07:28
+44,2024-06-26 13:43:05,Cantor Fitzgerald,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+45,2024-06-26 11:47:42,Citigroup,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+46,2024-06-24 18:09:47,Jefferies,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+47,2024-06-21 14:18:21,Melius Research,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+48,2024-06-18 21:20:37,Tigress Financial,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+49,2024-06-18 15:03:38,Wells Fargo,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+50,2024-06-18 12:22:16,Rosenblatt,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+51,2024-06-11 17:05:57,Argus Research,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+52,2024-06-11 16:47:21,Evercore ISI Group,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+53,2024-06-11 14:45:00,Goldman Sachs,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+54,2024-06-10 17:30:44,Morgan Stanley,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+55,2024-06-10 15:28:30,TD Cowen,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+56,2024-06-10 13:53:57,Barclays,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+57,2024-06-10 11:30:29,Susquehanna,Positive,Positive,main,NVDA,2024-10-24 13:07:28
+58,2024-06-04 12:02:07,Mizuho,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+59,2024-05-23 17:17:04,Citigroup,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+60,2024-05-23 17:02:18,Deutsche Bank,Hold,Hold,main,NVDA,2024-10-24 13:07:28
+61,2024-05-23 16:56:36,Craig-Hallum,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+62,2024-05-23 16:40:24,Wedbush,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+63,2024-05-23 15:45:18,TD Cowen,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+64,2024-05-23 15:39:45,Cantor Fitzgerald,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+65,2024-05-23 15:33:15,Argus Research,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+66,2024-05-23 15:27:56,Morgan Stanley,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+67,2024-05-23 15:19:17,Jefferies,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+68,2024-05-23 14:29:11,Raymond James,Strong Buy,Strong Buy,reit,NVDA,2024-10-24 13:07:28
+69,2024-05-23 14:28:59,Wells Fargo,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+70,2024-05-23 13:59:22,UBS,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+71,2024-05-23 13:40:28,Benchmark,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+72,2024-05-23 13:19:23,Oppenheimer,Outperform,Outperform,reit,NVDA,2024-10-24 13:07:28
+73,2024-05-23 13:12:18,Truist Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+74,2024-05-23 12:51:40,Barclays,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+75,2024-05-23 12:29:37,JP Morgan,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+76,2024-05-23 12:28:19,Susquehanna,Positive,Positive,main,NVDA,2024-10-24 13:07:28
+77,2024-05-23 12:14:34,Bernstein,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+78,2024-05-23 11:42:46,Rosenblatt,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+79,2024-05-23 11:23:33,Keybanc,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+80,2024-05-23 11:22:39,Stifel,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+81,2024-05-23 11:21:43,Piper Sandler,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+82,2024-05-23 11:11:39,Mizuho,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+83,2024-05-23 11:06:43,Evercore ISI Group,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+84,2024-05-23 11:01:04,B of A Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+85,2024-05-23 10:27:46,Needham,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+86,2024-05-23 10:07:48,Goldman Sachs,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+87,2024-05-23 09:57:43,Wolfe Research,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+88,2024-05-20 13:41:35,Barclays,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+89,2024-05-20 12:18:29,Susquehanna,Positive,Positive,main,NVDA,2024-10-24 13:07:28
+90,2024-05-20 12:07:30,Rosenblatt,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+91,2024-05-20 11:38:38,Stifel,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+92,2024-05-20 09:50:00,Baird,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+93,2024-05-17 12:15:57,Oppenheimer,Outperform,Outperform,reit,NVDA,2024-10-24 13:07:28
+94,2024-05-16 12:46:47,Wedbush,Outperform,Outperform,reit,NVDA,2024-10-24 13:07:28
+95,2024-05-14 13:37:48,Wells Fargo,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+96,2024-05-10 15:09:21,HSBC,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+97,2024-05-07 12:00:45,Goldman Sachs,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+98,2024-04-30 15:23:13,UBS,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+99,2024-04-16 09:19:10,Evercore ISI Group,Outperform,,init,NVDA,2024-10-24 13:07:28
+100,2024-04-11 17:08:47,Raymond James,Strong Buy,Strong Buy,main,NVDA,2024-10-24 13:07:28
+101,2024-04-08 12:58:32,Keybanc,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+102,2024-04-04 13:34:34,Susquehanna,Positive,Positive,main,NVDA,2024-10-24 13:07:28
+103,2024-03-22 17:43:24,UBS,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+104,2024-03-21 15:37:58,TD Cowen,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+105,2024-03-20 16:09:02,Argus Research,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+106,2024-03-20 16:01:00,Stifel,Buy,Buy,reit,NVDA,2024-10-24 13:07:28
+107,2024-03-20 15:13:16,Deutsche Bank,Hold,Hold,main,NVDA,2024-10-24 13:07:28
+108,2024-03-20 13:10:24,Goldman Sachs,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+109,2024-03-20 12:39:40,Benchmark,Buy,Buy,reit,NVDA,2024-10-24 13:07:28
+110,2024-03-20 12:04:33,Citigroup,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+111,2024-03-20 11:59:17,Piper Sandler,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+112,2024-03-20 10:09:27,Oppenheimer,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+113,2024-03-19 14:08:34,Keybanc,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+114,2024-03-19 12:55:22,Wedbush,Outperform,Outperform,reit,NVDA,2024-10-24 13:07:28
+115,2024-03-19 12:33:12,Susquehanna,Positive,Positive,main,NVDA,2024-10-24 13:07:28
+116,2024-03-19 10:30:29,Wells Fargo,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+117,2024-03-18 12:01:14,Truist Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+118,2024-03-18 10:13:39,HSBC,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+119,2024-03-13 11:02:13,B of A Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+120,2024-03-11 13:23:42,Cantor Fitzgerald,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+121,2024-03-07 14:20:28,Mizuho,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+122,2024-03-06 12:19:20,CICC,Outperform,,init,NVDA,2024-10-24 13:07:28
+123,2024-03-04 19:03:17,Cantor Fitzgerald,Overweight,Overweight,reit,NVDA,2024-10-24 13:07:28
+124,2024-02-29 12:21:47,Tigress Financial,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+125,2024-02-22 19:31:50,Keybanc,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+126,2024-02-22 19:12:45,Argus Research,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+127,2024-02-22 18:47:01,Craig-Hallum,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+128,2024-02-22 18:43:55,DA Davidson,Neutral,Neutral,main,NVDA,2024-10-24 13:07:28
+129,2024-02-22 18:40:13,Needham,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+130,2024-02-22 18:31:45,Cantor Fitzgerald,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+131,2024-02-22 18:22:50,Bernstein,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+132,2024-02-22 18:18:25,Wolfe Research,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+133,2024-02-22 18:09:40,HSBC,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+134,2024-02-22 18:04:03,Deutsche Bank,Hold,Hold,main,NVDA,2024-10-24 13:07:28
+135,2024-02-22 17:41:00,Oppenheimer,Outperform,Outperform,reit,NVDA,2024-10-24 13:07:28
+136,2024-02-22 16:50:04,UBS,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+137,2024-02-22 16:48:48,Truist Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+138,2024-02-22 16:29:12,B of A Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+139,2024-02-22 16:20:20,Benchmark,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+140,2024-02-22 16:10:55,Mizuho,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+141,2024-02-22 15:56:31,Stifel,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+142,2024-02-22 15:55:33,Morgan Stanley,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+143,2024-02-22 15:33:20,JP Morgan,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+144,2024-02-22 13:48:33,Jefferies,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+145,2024-02-22 13:28:48,Wedbush,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+146,2024-02-20 18:03:03,Cantor Fitzgerald,Overweight,Overweight,reit,NVDA,2024-10-24 13:07:28
+147,2024-02-20 13:05:33,Rosenblatt,Buy,Buy,reit,NVDA,2024-10-24 13:07:28
+148,2024-02-20 11:41:58,Baird,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+149,2024-02-16 18:54:47,Wells Fargo,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+150,2024-02-16 14:36:22,Oppenheimer,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+151,2024-02-16 14:12:50,Wedbush,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+152,2024-02-16 11:47:00,Loop Capital,Buy,,init,NVDA,2024-10-24 13:07:28
+153,2024-02-14 13:42:39,Susquehanna,Positive,Positive,main,NVDA,2024-10-24 13:07:28
+154,2024-02-13 17:00:45,Mizuho,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+155,2024-02-12 17:37:30,Cantor Fitzgerald,Overweight,Overweight,reit,NVDA,2024-10-24 13:07:28
+156,2024-02-07 20:26:19,Morgan Stanley,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+157,2024-02-05 10:29:05,Goldman Sachs,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+158,2024-01-29 18:59:29,Cantor Fitzgerald,Overweight,Overweight,reit,NVDA,2024-10-24 13:07:28
+159,2024-01-23 10:30:53,Cantor Fitzgerald,Overweight,,init,NVDA,2024-10-24 13:07:28
+160,2024-01-19 15:46:56,Raymond James,Strong Buy,Strong Buy,main,NVDA,2024-10-24 13:07:28
+161,2024-01-18 09:51:46,Tigress Financial,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+162,2024-01-16 09:33:30,Keybanc,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+163,2024-01-03 10:08:43,DA Davidson,Neutral,,init,NVDA,2024-10-24 13:07:28
+164,2023-11-22 18:48:30,Oppenheimer,Outperform,Outperform,reit,NVDA,2024-10-24 13:07:28
+165,2023-11-22 18:12:49,Stifel,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+166,2023-11-22 17:19:53,Susquehanna,Positive,Positive,reit,NVDA,2024-10-24 13:07:28
+167,2023-11-22 17:07:09,UBS,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+168,2023-11-22 16:59:10,Edward Jones,Hold,Buy,down,NVDA,2024-10-24 13:07:28
+169,2023-11-22 16:44:20,Mizuho,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+170,2023-11-22 16:36:55,Benchmark,Buy,Buy,reit,NVDA,2024-10-24 13:07:28
+171,2023-11-22 16:08:44,BMO Capital,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+172,2023-11-22 15:06:09,Wedbush,Outperform,Outperform,reit,NVDA,2024-10-24 13:07:28
+173,2023-11-22 14:46:56,Wells Fargo,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+174,2023-11-22 13:40:46,Morgan Stanley,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+175,2023-11-22 12:16:18,Needham,Buy,Buy,reit,NVDA,2024-10-24 13:07:28
+176,2023-11-17 19:33:58,Stifel,Buy,Buy,reit,NVDA,2024-10-24 13:07:28
+177,2023-11-17 17:21:26,Piper Sandler,Overweight,Overweight,reit,NVDA,2024-10-24 13:07:28
+178,2023-11-17 14:18:12,Wedbush,Outperform,Outperform,reit,NVDA,2024-10-24 13:07:28
+179,2023-11-09 18:31:01,Bernstein,Outperform,Outperform,reit,NVDA,2024-10-24 13:07:28
+180,2023-10-20 08:26:16,Keybanc,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+181,2023-10-18 15:14:34,Morgan Stanley,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+182,2023-10-18 11:54:23,Citigroup,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+183,2023-10-03 09:41:03,Keybanc,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+184,2023-10-02 14:03:14,Goldman Sachs,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+185,2023-08-24 18:43:42,Truist Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+186,2023-08-24 16:52:14,Craig-Hallum,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+187,2023-08-24 16:30:21,Argus Research,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+188,2023-08-24 16:10:09,Jefferies,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+189,2023-08-24 15:23:00,TD Cowen,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+190,2023-08-24 15:20:57,Susquehanna,Positive,Positive,main,NVDA,2024-10-24 13:07:28
+191,2023-08-24 15:08:24,Wells Fargo,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+192,2023-08-24 14:33:41,Baird,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+193,2023-08-24 13:58:56,UBS,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+194,2023-08-24 13:25:40,Wedbush,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+195,2023-08-24 12:45:41,Benchmark,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+196,2023-08-24 12:21:22,BMO Capital,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+197,2023-08-24 12:19:52,Morgan Stanley,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+198,2023-08-24 12:18:50,B of A Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+199,2023-08-24 11:59:22,Wolfe Research,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+200,2023-08-24 11:57:53,Piper Sandler,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+201,2023-08-24 11:56:53,Mizuho,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+202,2023-08-24 11:52:16,JP Morgan,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+203,2023-08-24 11:50:04,Citigroup,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+204,2023-08-24 11:48:17,Oppenheimer,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+205,2023-08-24 11:38:18,Raymond James,Strong Buy,Strong Buy,main,NVDA,2024-10-24 13:07:28
+206,2023-08-24 11:18:31,Barclays,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+207,2023-08-24 11:15:47,Rosenblatt,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+208,2023-08-24 11:10:13,Deutsche Bank,Hold,Hold,main,NVDA,2024-10-24 13:07:28
+209,2023-08-24 10:26:25,WestPark Capital,Buy,Hold,up,NVDA,2024-10-24 13:07:28
+210,2023-08-24 09:36:43,Stifel,Buy,Hold,up,NVDA,2024-10-24 13:07:28
+211,2023-08-24 09:35:17,Exane BNP Paribas,Outperform,Neutral,up,NVDA,2024-10-24 13:07:28
+212,2023-08-24 08:33:49,Keybanc,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+213,2023-08-21 17:07:15,BMO Capital,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+214,2023-08-21 10:17:56,HSBC,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+215,2023-08-21 08:15:43,Keybanc,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+216,2023-08-18 12:58:54,Wedbush,Outperform,Outperform,reit,NVDA,2024-10-24 13:07:28
+217,2023-08-17 11:19:33,Rosenblatt,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+218,2023-08-17 10:50:21,Oppenheimer,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+219,2023-08-16 11:14:51,Raymond James,Strong Buy,Strong Buy,main,NVDA,2024-10-24 13:07:28
+220,2023-08-16 10:39:56,Piper Sandler,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+221,2023-08-15 12:47:52,Baird,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+222,2023-08-15 12:38:18,Wells Fargo,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+223,2023-08-15 11:01:02,UBS,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+224,2023-07-24 10:48:23,Mizuho,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+225,2023-07-20 13:46:41,Susquehanna,Positive,Positive,main,NVDA,2024-10-24 13:07:28
+226,2023-07-20 10:17:50,Barclays,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+227,2023-07-20 08:58:38,Wolfe Research,Outperform,,init,NVDA,2024-10-24 13:07:28
+228,2023-07-14 14:00:19,Truist Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+229,2023-07-11 08:21:06,Keybanc,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+230,2023-07-10 13:44:19,Goldman Sachs,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+231,2023-07-07 15:20:15,Tigress Financial,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+232,2023-06-30 08:42:18,Daiwa Capital,Outperform,Neutral,up,NVDA,2024-10-24 13:07:28
+233,2023-06-29 11:32:38,Rosenblatt,Buy,Buy,reit,NVDA,2024-10-24 13:07:28
+234,2023-06-22 14:20:59,Mizuho,Buy,Buy,reit,NVDA,2024-10-24 13:07:28
+235,2023-06-16 11:06:35,Morgan Stanley,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+236,2023-05-31 10:51:53,B of A Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+237,2023-05-26 12:12:39,Goldman Sachs,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+238,2023-05-25 13:31:30,Deutsche Bank,Hold,Hold,main,NVDA,2024-10-24 13:07:28
+239,2023-05-25 13:13:35,Piper Sandler,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+240,2023-05-25 13:12:52,UBS,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+241,2023-05-25 13:11:49,BMO Capital,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+242,2023-05-25 12:40:19,Stifel,Hold,Hold,main,NVDA,2024-10-24 13:07:28
+243,2023-05-25 12:39:34,B of A Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+244,2023-05-25 12:06:43,Baird,Outperform,Neutral,up,NVDA,2024-10-24 13:07:28
+245,2023-05-25 12:04:53,Jefferies,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+246,2023-05-25 12:04:36,Craig-Hallum,Buy,Hold,up,NVDA,2024-10-24 13:07:28
+247,2023-05-25 12:03:26,Evercore ISI Group,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+248,2023-05-25 11:57:55,Morgan Stanley,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+249,2023-05-25 11:47:47,Wedbush,Outperform,Neutral,up,NVDA,2024-10-24 13:07:28
+250,2023-05-25 11:34:59,Rosenblatt,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+251,2023-05-25 11:27:55,TD Cowen,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+252,2023-05-25 11:26:59,Truist Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+253,2023-05-25 11:25:42,Mizuho,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+254,2023-05-25 11:11:34,Raymond James,Strong Buy,Strong Buy,main,NVDA,2024-10-24 13:07:28
+255,2023-05-25 11:07:01,JP Morgan,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+256,2023-05-25 11:04:04,Wells Fargo,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+257,2023-05-25 11:01:25,Susquehanna,Positive,Positive,main,NVDA,2024-10-24 13:07:28
+258,2023-05-25 10:52:43,Oppenheimer,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+259,2023-05-25 10:50:09,Needham,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+260,2023-05-25 10:31:44,Citigroup,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+261,2023-05-25 10:15:36,Goldman Sachs,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+262,2023-05-25 09:57:50,Barclays,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+263,2023-05-25 09:13:09,Bernstein,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+264,2023-05-25 08:10:24,Keybanc,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+265,2023-05-24 11:21:36,Citigroup,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+266,2023-05-23 10:54:45,Stifel,Hold,Hold,main,NVDA,2024-10-24 13:07:28
+267,2023-05-22 11:54:56,Wedbush,Neutral,Neutral,main,NVDA,2024-10-24 13:07:28
+268,2023-05-22 08:06:19,Keybanc,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+269,2023-05-18 20:50:46,Susquehanna,Positive,Positive,main,NVDA,2024-10-24 13:07:28
+270,2023-05-18 10:28:09,Oppenheimer,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+271,2023-05-11 11:07:46,Rosenblatt,Buy,Buy,reit,NVDA,2024-10-24 13:07:28
+272,2023-05-10 13:21:00,Truist Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+273,2023-04-25 12:16:38,Erste Group,Buy,Hold,up,NVDA,2024-10-24 13:07:28
+274,2023-04-24 10:22:49,Evercore ISI Group,Outperform,,reit,NVDA,2024-10-24 13:07:28
+275,2023-04-19 10:53:52,B of A Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+276,2023-04-18 08:53:55,HSBC,Buy,Reduce,up,NVDA,2024-10-24 13:07:28
+277,2023-04-11 10:52:47,Piper Sandler,Overweight,,main,NVDA,2024-10-24 13:07:28
+278,2023-04-11 10:25:20,Evercore ISI Group,Outperform,,main,NVDA,2024-10-24 13:07:28
+279,2023-04-11 08:46:20,Keybanc,Overweight,,main,NVDA,2024-10-24 13:07:28
+280,2023-03-31 10:03:33,Tigress Financial,Buy,,reit,NVDA,2024-10-24 13:07:28
+281,2023-03-30 20:54:49,Susquehanna,Positive,Positive,main,NVDA,2024-10-24 13:07:28
+282,2023-03-29 10:54:30,Piper Sandler,Overweight,,main,NVDA,2024-10-24 13:07:28
+283,2023-03-28 10:58:28,Bernstein,Outperform,,main,NVDA,2024-10-24 13:07:28
+284,2023-03-27 10:49:06,UBS,Buy,,main,NVDA,2024-10-24 13:07:28
+285,2023-03-23 10:10:19,Needham,Buy,,main,NVDA,2024-10-24 13:07:28
+286,2023-03-22 15:25:11,Truist Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+287,2023-03-22 13:12:28,BMO Capital,Outperform,,main,NVDA,2024-10-24 13:07:28
+288,2023-03-22 12:42:52,TD Cowen,Outperform,,main,NVDA,2024-10-24 13:07:28
+289,2023-03-22 11:35:01,Rosenblatt,Buy,,reit,NVDA,2024-10-24 13:07:28
+290,2023-03-22 11:24:11,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+291,2023-03-22 11:15:37,Wells Fargo,Overweight,,main,NVDA,2024-10-24 13:07:28
+292,2023-03-22 10:24:07,Oppenheimer,Outperform,,main,NVDA,2024-10-24 13:07:28
+293,2023-03-22 10:18:35,Needham,Buy,,reit,NVDA,2024-10-24 13:07:28
+294,2023-03-22 10:11:37,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+295,2023-03-21 14:19:27,Exane BNP Paribas,Neutral,Underperform,up,NVDA,2024-10-24 13:07:28
+296,2023-03-17 14:05:17,Citigroup,Buy,,main,NVDA,2024-10-24 13:07:28
+297,2023-03-17 08:47:32,Morgan Stanley,Overweight,Equal-Weight,up,NVDA,2024-10-24 13:07:28
+298,2023-03-16 12:39:43,Wedbush,Neutral,,reit,NVDA,2024-10-24 13:07:28
+299,2023-03-09 15:53:16,Susquehanna,Positive,,reit,NVDA,2024-10-24 13:07:28
+300,2023-02-23 13:59:02,Craig-Hallum,Hold,,main,NVDA,2024-10-24 13:07:28
+301,2023-02-23 13:56:58,Jefferies,Buy,,main,NVDA,2024-10-24 13:07:28
+302,2023-02-23 13:49:35,Stifel,Hold,,main,NVDA,2024-10-24 13:07:28
+303,2023-02-23 13:22:06,Goldman Sachs,Buy,Neutral,up,NVDA,2024-10-24 13:07:28
+304,2023-02-23 12:51:06,Truist Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+305,2023-02-23 12:47:12,B of A Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+306,2023-02-23 12:42:43,Morgan Stanley,Equal-Weight,,main,NVDA,2024-10-24 13:07:28
+307,2023-02-23 12:32:20,BMO Capital,Outperform,,main,NVDA,2024-10-24 13:07:28
+308,2023-02-23 12:17:56,Wells Fargo,Overweight,,main,NVDA,2024-10-24 13:07:28
+309,2023-02-23 11:57:38,Rosenblatt,Buy,,reit,NVDA,2024-10-24 13:07:28
+310,2023-02-23 11:57:17,Baird,Neutral,,main,NVDA,2024-10-24 13:07:28
+311,2023-02-23 11:53:48,Oppenheimer,Outperform,,main,NVDA,2024-10-24 13:07:28
+312,2023-02-23 11:51:38,JP Morgan,Overweight,,main,NVDA,2024-10-24 13:07:28
+313,2023-02-23 11:49:20,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+314,2023-02-23 11:47:33,Barclays,Overweight,,main,NVDA,2024-10-24 13:07:28
+315,2023-02-23 11:44:44,Piper Sandler,Overweight,,main,NVDA,2024-10-24 13:07:28
+316,2023-02-23 11:41:21,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+317,2023-02-23 11:36:32,Citigroup,Buy,,main,NVDA,2024-10-24 13:07:28
+318,2023-02-23 11:27:22,Evercore ISI Group,Outperform,,main,NVDA,2024-10-24 13:07:28
+319,2023-02-23 10:56:37,Needham,Buy,,main,NVDA,2024-10-24 13:07:28
+320,2023-02-23 10:25:04,TD Cowen,Outperform,,main,NVDA,2024-10-24 13:07:28
+321,2023-02-22 13:49:11,Piper Sandler,Overweight,,main,NVDA,2024-10-24 13:07:28
+322,2023-02-21 14:14:47,Oppenheimer,Outperform,,main,NVDA,2024-10-24 13:07:28
+323,2023-02-21 13:49:49,Morgan Stanley,Equal-Weight,,main,NVDA,2024-10-24 13:07:28
+324,2023-02-21 13:25:36,Stifel,Hold,,main,NVDA,2024-10-24 13:07:28
+325,2023-02-21 12:43:39,BMO Capital,Outperform,,main,NVDA,2024-10-24 13:07:28
+326,2023-02-17 13:51:01,Oppenheimer,Outperform,,main,NVDA,2024-10-24 13:07:28
+327,2023-02-17 09:32:21,Keybanc,Overweight,,main,NVDA,2024-10-24 13:07:28
+328,2023-02-16 14:27:06,Susquehanna,Positive,,main,NVDA,2024-10-24 13:07:28
+329,2023-02-16 11:20:18,DZ Bank,Sell,Buy,down,NVDA,2024-10-24 13:07:28
+330,2023-02-14 11:58:02,B of A Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+331,2023-01-23 14:35:55,Truist Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+332,2023-01-23 11:50:44,Barclays,Overweight,,main,NVDA,2024-10-24 13:07:28
+333,2023-01-11 09:34:42,Keybanc,Overweight,,main,NVDA,2024-10-24 13:07:28
+334,2022-12-19 12:14:32,Needham,Buy,,main,NVDA,2024-10-24 13:07:28
+335,2022-12-15 12:36:13,HSBC,Reduce,,init,NVDA,2024-10-24 13:07:28
+336,2022-12-15 11:29:08,Evercore ISI Group,Outperform,,main,NVDA,2024-10-24 13:07:28
+337,2022-12-12 10:28:11,TD Cowen,Outperform,,main,NVDA,2024-10-24 13:07:28
+338,2022-12-09 09:43:09,Tigress Financial,Buy,,main,NVDA,2024-10-24 13:07:28
+339,2022-11-17 14:12:33,Summit Insights Group,Buy,Hold,up,NVDA,2024-10-24 13:07:28
+340,2022-11-17 13:52:07,Stifel,Hold,,main,NVDA,2024-10-24 13:07:28
+341,2022-11-17 13:49:53,Wedbush,Neutral,,main,NVDA,2024-10-24 13:07:28
+342,2022-11-17 12:57:33,Morgan Stanley,Equal-Weight,,main,NVDA,2024-10-24 13:07:28
+343,2022-11-17 12:54:34,Susquehanna,Positive,,main,NVDA,2024-10-24 13:07:28
+344,2022-11-17 12:30:04,Raymond James,Strong Buy,,main,NVDA,2024-10-24 13:07:28
+345,2022-11-17 12:07:57,Needham,Buy,,main,NVDA,2024-10-24 13:07:28
+346,2022-11-17 11:52:11,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+347,2022-11-17 11:50:44,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+348,2022-11-11 11:21:58,Oppenheimer,Outperform,,main,NVDA,2024-10-24 13:07:28
+349,2022-10-24 10:57:10,Barclays,Overweight,,main,NVDA,2024-10-24 13:07:28
+350,2022-10-18 12:46:22,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+351,2022-10-11 12:31:54,Citigroup,Buy,,main,NVDA,2024-10-24 13:07:28
+352,2022-09-29 20:58:36,Susquehanna,Positive,Positive,main,NVDA,2024-10-24 13:07:28
+353,2022-09-21 11:40:14,Susquehanna,Positive,,main,NVDA,2024-10-24 13:07:28
+354,2022-09-21 11:34:44,BMO Capital,Outperform,,main,NVDA,2024-10-24 13:07:28
+355,2022-09-15 11:23:46,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+356,2022-09-08 08:38:53,Stifel,Hold,,init,NVDA,2024-10-24 13:07:28
+357,2022-09-02 09:19:01,Needham,Buy,,main,NVDA,2024-10-24 13:07:28
+358,2022-09-01 10:58:05,Piper Sandler,Overweight,,main,NVDA,2024-10-24 13:07:28
+359,2022-08-25 21:01:09,Susquehanna,Positive,Positive,main,NVDA,2024-10-24 13:07:28
+360,2022-08-25 13:22:31,Craig-Hallum,Hold,,main,NVDA,2024-10-24 13:07:28
+361,2022-08-25 13:19:32,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+362,2022-08-25 13:12:07,Truist Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+363,2022-08-25 12:27:45,Wedbush,Neutral,,main,NVDA,2024-10-24 13:07:28
+364,2022-08-25 12:22:27,Baird,Neutral,,main,NVDA,2024-10-24 13:07:28
+365,2022-08-25 12:19:59,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+366,2022-08-25 12:18:32,BMO Capital,Outperform,,main,NVDA,2024-10-24 13:07:28
+367,2022-08-25 12:17:26,Benchmark,Buy,,main,NVDA,2024-10-24 13:07:28
+368,2022-08-25 11:53:48,Barclays,Overweight,,main,NVDA,2024-10-24 13:07:28
+369,2022-08-25 10:53:09,Raymond James,Strong Buy,,main,NVDA,2024-10-24 13:07:28
+370,2022-08-25 10:46:31,Citigroup,Buy,,main,NVDA,2024-10-24 13:07:28
+371,2022-08-25 10:43:58,JP Morgan,Overweight,,main,NVDA,2024-10-24 13:07:28
+372,2022-08-09 13:29:45,Truist Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+373,2022-08-09 12:36:47,Susquehanna,Positive,,main,NVDA,2024-10-24 13:07:28
+374,2022-08-09 10:52:47,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+375,2022-08-09 09:14:26,Raymond James,Strong Buy,,main,NVDA,2024-10-24 13:07:28
+376,2022-08-08 17:33:14,Craig-Hallum,Hold,Buy,down,NVDA,2024-10-24 13:07:28
+377,2022-07-25 11:12:22,Barclays,Overweight,,main,NVDA,2024-10-24 13:07:28
+378,2022-07-20 13:01:26,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+379,2022-07-14 14:27:24,Baird,Neutral,,main,NVDA,2024-10-24 13:07:28
+380,2022-07-13 11:56:19,Susquehanna,Positive,,main,NVDA,2024-10-24 13:07:28
+381,2022-07-12 11:20:16,Citigroup,Buy,,main,NVDA,2024-10-24 13:07:28
+382,2022-07-12 08:51:57,Keybanc,Overweight,,main,NVDA,2024-10-24 13:07:28
+383,2022-07-11 10:31:21,Piper Sandler,Overweight,,main,NVDA,2024-10-24 13:07:28
+384,2022-06-29 11:51:43,B of A Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+385,2022-05-27 13:41:22,Baird,Neutral,,main,NVDA,2024-10-24 13:07:28
+386,2022-05-26 13:12:12,BMO Capital,Outperform,,main,NVDA,2024-10-24 13:07:28
+387,2022-05-26 12:16:15,Needham,Buy,,main,NVDA,2024-10-24 13:07:28
+388,2022-05-26 12:08:46,Cowen & Co.,Outperform,,main,NVDA,2024-10-24 13:07:28
+389,2022-05-26 12:06:21,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+390,2022-05-26 11:32:47,Raymond James,Strong Buy,,main,NVDA,2024-10-24 13:07:28
+391,2022-05-26 11:30:07,JP Morgan,Overweight,,main,NVDA,2024-10-24 13:07:28
+392,2022-05-26 11:28:01,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+393,2022-05-26 11:08:28,Morgan Stanley,Equal-Weight,,main,NVDA,2024-10-24 13:07:28
+394,2022-05-26 11:05:58,Susquehanna,Positive,,main,NVDA,2024-10-24 13:07:28
+395,2022-05-26 11:02:16,Citigroup,Buy,,main,NVDA,2024-10-24 13:07:28
+396,2022-05-26 10:16:01,Piper Sandler,Overweight,,main,NVDA,2024-10-24 13:07:28
+397,2022-05-26 09:04:03,Truist Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+398,2022-05-26 08:41:38,Keybanc,Overweight,,main,NVDA,2024-10-24 13:07:28
+399,2022-05-24 09:07:25,Truist Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+400,2022-05-23 12:55:11,Bernstein,Outperform,,main,NVDA,2024-10-24 13:07:28
+401,2022-05-23 12:49:23,UBS,Buy,,main,NVDA,2024-10-24 13:07:28
+402,2022-05-20 12:23:54,Wells Fargo,Overweight,,main,NVDA,2024-10-24 13:07:28
+403,2022-05-19 14:31:07,Wedbush,Neutral,,main,NVDA,2024-10-24 13:07:28
+404,2022-05-19 12:29:32,Oppenheimer,Outperform,,main,NVDA,2024-10-24 13:07:28
+405,2022-05-18 12:43:58,Susquehanna,Positive,,main,NVDA,2024-10-24 13:07:28
+406,2022-04-25 10:47:48,Barclays,Overweight,,main,NVDA,2024-10-24 13:07:28
+407,2022-04-20 10:47:26,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+408,2022-04-13 11:43:48,New Street Research,Buy,Neutral,up,NVDA,2024-10-24 13:07:28
+409,2022-04-12 21:04:14,Susquehanna,Positive,Positive,main,NVDA,2024-10-24 13:07:28
+410,2022-04-12 07:52:17,Keybanc,Overweight,,main,NVDA,2024-10-24 13:07:28
+411,2022-04-11 10:11:47,Baird,Neutral,Outperform,down,NVDA,2024-10-24 13:07:28
+412,2022-04-08 09:09:56,Truist Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+413,2022-03-29 11:55:39,Tigress Financial,Buy,,main,NVDA,2024-10-24 13:07:28
+414,2022-03-15 09:37:14,TD Cowen,Outperform,,reit,NVDA,2024-10-24 13:07:28
+415,2022-02-17 11:46:45,Summit Insights Group,Hold,Buy,down,NVDA,2024-10-24 13:07:28
+416,2022-02-17 11:44:10,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+417,2022-02-14 10:17:24,Truist Securities,Buy,,reit,NVDA,2024-10-24 13:07:28
+418,2022-02-09 22:10:15,Susquehanna,Positive,,reit,NVDA,2024-10-24 13:07:28
+419,2021-11-18 14:04:02,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+420,2021-11-18 13:58:16,Truist Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+421,2021-11-18 12:52:52,Needham,Buy,,main,NVDA,2024-10-24 13:07:28
+422,2021-11-18 12:20:03,Raymond James,Strong Buy,,main,NVDA,2024-10-24 13:07:28
+423,2021-11-18 12:06:52,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+424,2021-11-18 11:42:50,Piper Sandler,Overweight,,main,NVDA,2024-10-24 13:07:28
+425,2021-11-18 09:37:16,Keybanc,Overweight,,main,NVDA,2024-10-24 13:07:28
+426,2021-11-16 14:07:53,Credit Suisse,Outperform,,main,NVDA,2024-10-24 13:07:28
+427,2021-11-12 12:03:33,Wedbush,Neutral,Outperform,down,NVDA,2024-10-24 13:07:28
+428,2021-11-11 22:11:57,Susquehanna,Positive,Positive,main,NVDA,2024-10-24 13:07:28
+429,2021-11-11 11:55:23,Oppenheimer,Outperform,,main,NVDA,2024-10-24 13:07:28
+430,2021-11-10 15:06:06,B of A Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+431,2021-11-04 14:39:36,Wells Fargo,Overweight,,main,NVDA,2024-10-24 13:07:28
+432,2021-10-25 11:02:48,Piper Sandler,Overweight,,main,NVDA,2024-10-24 13:07:28
+433,2021-10-05 08:36:09,Keybanc,Overweight,,main,NVDA,2024-10-24 13:07:28
+434,2021-09-28 11:13:02,Susquehanna,Positive,,main,NVDA,2024-10-24 13:07:28
+435,2021-09-17 10:56:23,B of A Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+436,2021-08-19 12:25:58,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+437,2021-08-19 12:04:32,Credit Suisse,Outperform,,main,NVDA,2024-10-24 13:07:28
+438,2021-08-19 11:33:22,Rosenblatt,Buy,,main,NVDA,2024-10-24 13:07:28
+439,2021-08-19 11:11:39,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+440,2021-08-19 10:38:11,Summit Insights Group,Sell,Hold,down,NVDA,2024-10-24 13:07:28
+441,2021-08-19 10:35:27,Barclays,Overweight,,main,NVDA,2024-10-24 13:07:28
+442,2021-08-19 09:31:44,Needham,Buy,,main,NVDA,2024-10-24 13:07:28
+443,2021-08-19 08:34:25,Keybanc,Overweight,,main,NVDA,2024-10-24 13:07:28
+444,2021-08-12 13:25:06,Evercore ISI Group,Outperform,,main,NVDA,2024-10-24 13:07:28
+445,2021-08-12 12:25:42,UBS,Buy,,main,NVDA,2024-10-24 13:07:28
+446,2021-08-12 12:21:28,Wells Fargo,Overweight,,main,NVDA,2024-10-24 13:07:28
+447,2021-08-04 11:00:16,Rosenblatt,Buy,,main,NVDA,2024-10-24 13:07:28
+448,2021-07-15 12:57:19,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+449,2021-07-08 12:22:14,Truist Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+450,2021-07-06 08:47:39,Keybanc,Overweight,,main,NVDA,2024-10-24 13:07:28
+451,2021-07-01 13:11:38,BMO Capital,Outperform,,main,NVDA,2024-10-24 13:07:28
+452,2021-06-22 11:16:31,Raymond James,Strong Buy,,main,NVDA,2024-10-24 13:07:28
+453,2021-06-18 12:08:29,B of A Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+454,2021-06-17 14:30:34,Jefferies,Buy,,main,NVDA,2024-10-24 13:07:28
+455,2021-05-27 21:22:20,Susquehanna,Positive,Positive,main,NVDA,2024-10-24 13:07:28
+456,2021-05-27 14:12:01,Truist Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+457,2021-05-27 13:42:01,Piper Sandler,Overweight,,main,NVDA,2024-10-24 13:07:28
+458,2021-05-27 13:35:20,BMO Capital,Outperform,,main,NVDA,2024-10-24 13:07:28
+459,2021-05-27 13:33:04,Wedbush,Outperform,,main,NVDA,2024-10-24 13:07:28
+460,2021-05-27 13:25:14,Evercore ISI Group,Outperform,,main,NVDA,2024-10-24 13:07:28
+461,2021-05-27 12:48:41,Craig-Hallum,Buy,Hold,up,NVDA,2024-10-24 13:07:28
+462,2021-05-27 12:25:33,UBS,Buy,,main,NVDA,2024-10-24 13:07:28
+463,2021-05-27 12:21:01,Jefferies,Buy,,main,NVDA,2024-10-24 13:07:28
+464,2021-05-27 11:10:03,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+465,2021-05-27 11:07:09,B of A Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+466,2021-05-27 10:49:49,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+467,2021-05-27 10:04:00,Keybanc,Overweight,,main,NVDA,2024-10-24 13:07:28
+468,2021-05-25 21:23:38,Susquehanna,Positive,,reit,NVDA,2024-10-24 13:07:28
+469,2021-05-05 10:40:30,Baird,Outperform,,init,NVDA,2024-10-24 13:07:28
+470,2021-04-15 11:24:42,Raymond James,Strong Buy,Outperform,up,NVDA,2024-10-24 13:07:28
+471,2021-04-13 15:13:24,Wells Fargo,Overweight,,main,NVDA,2024-10-24 13:07:28
+472,2021-04-13 14:47:14,Cowen & Co.,Outperform,,main,NVDA,2024-10-24 13:07:28
+473,2021-04-13 14:24:34,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+474,2021-04-13 14:14:13,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+475,2021-04-13 11:02:10,Rosenblatt,Buy,,main,NVDA,2024-10-24 13:07:28
+476,2021-04-13 10:35:26,Barclays,Overweight,,main,NVDA,2024-10-24 13:07:28
+477,2021-02-25 16:31:02,Cowen & Co.,Outperform,,main,NVDA,2024-10-24 13:07:28
+478,2021-02-25 16:29:46,JP Morgan,Overweight,,main,NVDA,2024-10-24 13:07:28
+479,2021-02-25 16:24:30,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+480,2021-02-25 16:17:07,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+481,2021-02-25 16:07:16,Piper Sandler,Overweight,,main,NVDA,2024-10-24 13:07:28
+482,2021-02-25 13:23:33,Raymond James,Outperform,,main,NVDA,2024-10-24 13:07:28
+483,2021-02-25 12:09:10,Needham,Buy,,main,NVDA,2024-10-24 13:07:28
+484,2021-02-24 13:17:20,Cascend,Buy,,main,NVDA,2024-10-24 13:07:28
+485,2021-02-22 22:25:26,Susquehanna,Positive,Positive,main,NVDA,2024-10-24 13:07:28
+486,2021-02-22 15:55:55,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+487,2021-02-18 14:30:08,Oppenheimer,Outperform,,main,NVDA,2024-10-24 13:07:28
+488,2021-01-26 15:40:38,Barclays,Overweight,,main,NVDA,2024-10-24 13:07:28
+489,2021-01-15 17:23:46,Truist Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+490,2021-01-15 17:21:46,Susquehanna,Positive,,main,NVDA,2024-10-24 13:07:28
+491,2020-11-19 15:26:23,B of A Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+492,2020-11-19 12:39:52,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+493,2020-11-19 12:17:48,Raymond James,Outperform,,main,NVDA,2024-10-24 13:07:28
+494,2020-11-19 11:57:50,Rosenblatt,Buy,,main,NVDA,2024-10-24 13:07:28
+495,2020-10-12 13:29:55,Truist Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+496,2020-10-06 14:42:55,JP Morgan,Overweight,,main,NVDA,2024-10-24 13:07:28
+497,2020-10-06 14:41:00,BMO Capital,Outperform,,main,NVDA,2024-10-24 13:07:28
+498,2020-10-06 14:34:58,Cascend,Buy,,main,NVDA,2024-10-24 13:07:28
+499,2020-10-06 12:27:57,Oppenheimer,Outperform,,main,NVDA,2024-10-24 13:07:28
+500,2020-09-15 16:06:31,Craig-Hallum,Hold,,main,NVDA,2024-10-24 13:07:28
+501,2020-09-15 10:42:33,Needham,Buy,,main,NVDA,2024-10-24 13:07:28
+502,2020-09-14 12:50:56,Jefferies,Buy,,main,NVDA,2024-10-24 13:07:28
+503,2020-09-02 15:48:37,RBC Capital,Outperform,,main,NVDA,2024-10-24 13:07:28
+504,2020-09-02 14:53:00,Goldman Sachs,Buy,,main,NVDA,2024-10-24 13:07:28
+505,2020-09-02 14:51:21,Benchmark,Buy,,main,NVDA,2024-10-24 13:07:28
+506,2020-09-02 14:35:24,B of A Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+507,2020-09-02 12:15:52,Credit Suisse,Outperform,,main,NVDA,2024-10-24 13:07:28
+508,2020-09-02 10:57:01,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+509,2020-08-20 16:00:19,Susquehanna,Positive,,main,NVDA,2024-10-24 13:07:28
+510,2020-08-20 15:53:14,Jefferies,Buy,,main,NVDA,2024-10-24 13:07:28
+511,2020-08-20 15:51:50,Wells Fargo,Overweight,,main,NVDA,2024-10-24 13:07:28
+512,2020-08-20 14:15:18,Oppenheimer,Outperform,,main,NVDA,2024-10-24 13:07:28
+513,2020-08-20 14:12:42,Citigroup,Buy,,main,NVDA,2024-10-24 13:07:28
+514,2020-08-20 14:11:16,Barclays,Overweight,,main,NVDA,2024-10-24 13:07:28
+515,2020-08-20 12:51:16,Credit Suisse,Outperform,,main,NVDA,2024-10-24 13:07:28
+516,2020-08-20 12:23:25,Raymond James,Outperform,,main,NVDA,2024-10-24 13:07:28
+517,2020-08-20 11:52:37,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+518,2020-08-20 11:51:57,Morgan Stanley,Equal-Weight,,main,NVDA,2024-10-24 13:07:28
+519,2020-08-20 11:39:59,Rosenblatt,Buy,,main,NVDA,2024-10-24 13:07:28
+520,2020-08-20 10:54:31,RBC Capital,Outperform,,main,NVDA,2024-10-24 13:07:28
+521,2020-08-20 10:03:05,Needham,Buy,,main,NVDA,2024-10-24 13:07:28
+522,2020-08-17 12:05:15,Wells Fargo,Overweight,,main,NVDA,2024-10-24 13:07:28
+523,2020-08-14 13:42:56,Wedbush,Outperform,,main,NVDA,2024-10-24 13:07:28
+524,2020-08-13 11:22:42,Raymond James,Outperform,,main,NVDA,2024-10-24 13:07:28
+525,2020-07-20 11:54:52,Barclays,Overweight,,main,NVDA,2024-10-24 13:07:28
+526,2020-07-10 11:03:08,Rosenblatt,Buy,,main,NVDA,2024-10-24 13:07:28
+527,2020-07-07 16:13:08,B of A Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+528,2020-06-17 14:36:33,Jefferies,Buy,,main,NVDA,2024-10-24 13:07:28
+529,2020-06-16 09:37:07,Morgan Stanley,Equal-Weight,Overweight,down,NVDA,2024-10-24 13:07:28
+530,2020-05-26 11:58:30,Morgan Stanley,Overweight,,main,NVDA,2024-10-24 13:07:28
+531,2020-05-22 14:20:07,Cascend,Buy,,main,NVDA,2024-10-24 13:07:28
+532,2020-05-22 13:58:49,Piper Sandler,Overweight,,main,NVDA,2024-10-24 13:07:28
+533,2020-05-22 13:41:56,UBS,Buy,,main,NVDA,2024-10-24 13:07:28
+534,2020-05-22 13:26:28,B of A Securities,Buy,,reit,NVDA,2024-10-24 13:07:28
+535,2020-05-22 13:06:08,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+536,2020-05-22 12:36:42,Raymond James,Outperform,,reit,NVDA,2024-10-24 13:07:28
+537,2020-05-22 12:33:19,Oppenheimer,Outperform,,main,NVDA,2024-10-24 13:07:28
+538,2020-05-22 12:03:50,Wedbush,Outperform,,main,NVDA,2024-10-24 13:07:28
+539,2020-05-22 12:00:40,Wells Fargo,Overweight,,main,NVDA,2024-10-24 13:07:28
+540,2020-05-22 11:57:24,Nomura,Reduce,,main,NVDA,2024-10-24 13:07:28
+541,2020-05-22 11:54:10,Mizuho,Buy,,reit,NVDA,2024-10-24 13:07:28
+542,2020-05-22 11:44:45,SunTrust Robinson Humphrey,Buy,,main,NVDA,2024-10-24 13:07:28
+543,2020-05-22 10:58:31,Rosenblatt,Buy,,main,NVDA,2024-10-24 13:07:28
+544,2020-05-22 10:49:18,Needham,Buy,,main,NVDA,2024-10-24 13:07:28
+545,2020-05-19 13:35:16,Susquehanna,Positive,,main,NVDA,2024-10-24 13:07:28
+546,2020-05-19 13:01:36,RBC Capital,Outperform,,main,NVDA,2024-10-24 13:07:28
+547,2020-05-18 10:45:03,BMO Capital,Outperform,Market Perform,up,NVDA,2024-10-24 13:07:28
+548,2020-05-15 12:34:07,Raymond James,Outperform,,reit,NVDA,2024-10-24 13:07:28
+549,2020-05-13 14:45:53,Wedbush,Outperform,,main,NVDA,2024-10-24 13:07:28
+550,2020-05-11 11:10:17,Needham,Buy,,main,NVDA,2024-10-24 13:07:28
+551,2020-05-07 16:17:35,SunTrust Robinson Humphrey,Buy,,main,NVDA,2024-10-24 13:07:28
+552,2020-05-04 16:13:48,Susquehanna,Positive,,main,NVDA,2024-10-24 13:07:28
+553,2020-04-28 13:16:49,Morgan Stanley,Overweight,,main,NVDA,2024-10-24 13:07:28
+554,2020-04-17 16:01:43,UBS,Buy,,main,NVDA,2024-10-24 13:07:28
+555,2020-03-31 14:33:15,Susquehanna,Positive,,main,NVDA,2024-10-24 13:07:28
+556,2020-03-24 10:18:45,Needham,Buy,Hold,up,NVDA,2024-10-24 13:07:28
+557,2020-03-20 14:38:21,Wells Fargo,Overweight,,main,NVDA,2024-10-24 13:07:28
+558,2020-03-18 13:12:29,Morgan Stanley,Overweight,,main,NVDA,2024-10-24 13:07:28
+559,2020-02-25 10:08:14,Nomura,Reduce,Neutral,down,NVDA,2024-10-24 13:07:28
+560,2020-02-19 10:17:51,Bernstein,Outperform,Market Perform,up,NVDA,2024-10-24 13:07:28
+561,2020-02-18 12:46:05,Argus Research,Buy,,reit,NVDA,2024-10-24 13:07:28
+562,2020-02-14 14:57:03,Craig-Hallum,Buy,,main,NVDA,2024-10-24 13:07:28
+563,2020-02-14 14:49:14,Cascend,Buy,,main,NVDA,2024-10-24 13:07:28
+564,2020-02-14 14:39:39,Oppenheimer,Outperform,,main,NVDA,2024-10-24 13:07:28
+565,2020-02-14 14:15:17,Morgan Stanley,Overweight,,main,NVDA,2024-10-24 13:07:28
+566,2020-02-14 13:30:25,Wells Fargo,Overweight,,main,NVDA,2024-10-24 13:07:28
+567,2020-02-14 12:48:15,Raymond James,Outperform,,main,NVDA,2024-10-24 13:07:28
+568,2020-02-14 12:40:14,Wedbush,Outperform,,main,NVDA,2024-10-24 13:07:28
+569,2020-02-14 12:25:00,Rosenblatt,Buy,,main,NVDA,2024-10-24 13:07:28
+570,2020-02-14 12:24:10,UBS,Buy,,main,NVDA,2024-10-24 13:07:28
+571,2020-02-14 11:56:19,Citigroup,Buy,,main,NVDA,2024-10-24 13:07:28
+572,2020-02-13 14:19:58,SunTrust Robinson Humphrey,Buy,,main,NVDA,2024-10-24 13:07:28
+573,2020-02-13 12:25:20,Cascend,Buy,,main,NVDA,2024-10-24 13:07:28
+574,2020-02-12 13:23:47,Susquehanna,Positive,,main,NVDA,2024-10-24 13:07:28
+575,2020-02-12 13:02:55,Wedbush,Outperform,,main,NVDA,2024-10-24 13:07:28
+576,2020-02-11 14:55:52,Oppenheimer,Outperform,,main,NVDA,2024-10-24 13:07:28
+577,2020-02-11 14:46:03,Wells Fargo,Overweight,,main,NVDA,2024-10-24 13:07:28
+578,2020-02-10 12:47:12,RBC Capital,Outperform,,main,NVDA,2024-10-24 13:07:28
+579,2020-01-23 12:53:12,UBS,Buy,,main,NVDA,2024-10-24 13:07:28
+580,2020-01-15 13:36:14,Piper Sandler,Overweight,,main,NVDA,2024-10-24 13:07:28
+581,2020-01-13 17:37:58,Craig-Hallum,Buy,,reit,NVDA,2024-10-24 13:07:28
+582,2020-01-13 12:46:00,Argus Research,Buy,,main,NVDA,2024-10-24 13:07:28
+583,2020-01-13 12:37:11,Needham,Hold,Underperform,up,NVDA,2024-10-24 13:07:28
+584,2020-01-10 15:19:33,B of A Securities,Buy,,reit,NVDA,2024-10-24 13:07:28
+585,2019-12-31 12:51:32,Benchmark,Buy,,main,NVDA,2024-10-24 13:07:28
+586,2019-12-20 13:04:08,Wells Fargo,Overweight,,main,NVDA,2024-10-24 13:07:28
+587,2019-12-17 14:19:13,Piper Sandler,Overweight,,main,NVDA,2024-10-24 13:07:28
+588,2019-11-25 17:44:05,Cascend,Buy,,main,NVDA,2024-10-24 13:07:28
+589,2019-11-25 11:43:50,Morgan Stanley,Overweight,Equal-Weight,up,NVDA,2024-10-24 13:07:28
+590,2019-11-15 16:09:46,SunTrust Robinson Humphrey,Buy,,main,NVDA,2024-10-24 13:07:28
+591,2019-11-15 13:46:24,JP Morgan,Overweight,,main,NVDA,2024-10-24 13:07:28
+592,2019-11-15 13:44:59,Barclays,Overweight,,main,NVDA,2024-10-24 13:07:28
+593,2019-11-15 13:40:41,Nomura,Neutral,,main,NVDA,2024-10-24 13:07:28
+594,2019-11-15 13:35:36,Morgan Stanley,Equal-Weight,,main,NVDA,2024-10-24 13:07:28
+595,2019-11-15 13:25:09,Raymond James,Outperform,,reit,NVDA,2024-10-24 13:07:28
+596,2019-11-15 13:00:55,Benchmark,Buy,,main,NVDA,2024-10-24 13:07:28
+597,2019-11-15 12:51:31,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+598,2019-11-15 12:24:11,Craig-Hallum,Buy,Hold,up,NVDA,2024-10-24 13:07:28
+599,2019-11-15 12:16:06,New Street Research,Neutral,Buy,down,NVDA,2024-10-24 13:07:28
+600,2019-11-15 12:12:30,B of A Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+601,2019-11-15 12:10:52,Citigroup,Buy,,main,NVDA,2024-10-24 13:07:28
+602,2019-11-15 12:09:57,Wells Fargo,Outperform,,main,NVDA,2024-10-24 13:07:28
+603,2019-11-12 19:01:05,Cascend,Buy,,main,NVDA,2024-10-24 13:07:28
+604,2019-11-12 13:09:19,Oppenheimer,Outperform,,main,NVDA,2024-10-24 13:07:28
+605,2019-11-11 14:20:50,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+606,2019-11-11 14:04:38,UBS,Buy,,main,NVDA,2024-10-24 13:07:28
+607,2019-10-22 15:07:15,Wells Fargo,Outperform,,main,NVDA,2024-10-24 13:07:28
+608,2019-10-15 15:52:43,Cascend,Buy,,main,NVDA,2024-10-24 13:07:28
+609,2019-10-15 12:10:22,B of A Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+610,2019-10-07 14:46:00,Evercore ISI Group,Outperform,,main,NVDA,2024-10-24 13:07:28
+611,2019-10-07 12:18:30,RBC Capital,Outperform,,main,NVDA,2024-10-24 13:07:28
+612,2019-09-23 12:31:06,SunTrust Robinson Humphrey,Buy,,main,NVDA,2024-10-24 13:07:28
+613,2019-08-16 12:17:46,Morgan Stanley,Equal-Weight,,main,NVDA,2024-10-24 13:07:28
+614,2019-07-11 12:40:28,Cascend,Buy,Hold,up,NVDA,2024-10-24 13:07:28
+615,2019-06-27 12:07:03,Wedbush,Outperform,,init,NVDA,2024-10-24 13:07:28
+616,2019-06-06 12:57:52,Barclays,Overweight,,main,NVDA,2024-10-24 13:07:28
+617,2019-05-17 12:59:16,Summit Insights Group,Hold,Buy,down,NVDA,2024-10-24 13:07:28
+618,2019-05-17 12:48:56,UBS,Buy,,main,NVDA,2024-10-24 13:07:28
+619,2019-05-14 13:45:17,Stifel,Hold,,main,NVDA,2024-10-24 13:07:28
+620,2019-05-13 17:23:39,Morgan Stanley,Equal-Weight,,main,NVDA,2024-10-24 13:07:28
+621,2019-04-12 13:07:26,DZ Bank,Sell,,down,NVDA,2024-10-24 13:07:28
+622,2019-04-03 11:37:50,Nomura,Neutral,,init,NVDA,2024-10-24 13:07:28
+623,2019-03-26 10:32:23,Piper Sandler,Overweight,,init,NVDA,2024-10-24 13:07:28
+624,2019-02-22 14:51:12,Atlantic Equities,Overweight,,init,NVDA,2024-10-24 13:07:28
+625,2019-02-11 12:31:51,Bernstein,Market Perform,Outperform,down,NVDA,2024-10-24 13:07:28
+626,2019-01-29 12:41:55,Needham,Underperform,Buy,down,NVDA,2024-10-24 13:07:28
+627,2019-01-29 12:23:41,Morgan Stanley,Equal-Weight,Overweight,down,NVDA,2024-10-24 13:07:28
+628,2019-01-29 11:53:10,UBS,Buy,Neutral,up,NVDA,2024-10-24 13:07:28
+629,2018-12-27 16:05:42,RBC Capital,Outperform,Outperform,reit,NVDA,2024-10-24 13:07:28
+630,2018-12-12 13:40:40,RBC Capital,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+631,2018-11-26 11:53:16,Credit Suisse,Outperform,,init,NVDA,2024-10-24 13:07:28
+632,2018-11-20 14:43:08,Exane BNP Paribas,Underperform,Neutral,down,NVDA,2024-10-24 13:07:28
+633,2018-11-16 15:59:10,Jefferies,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+634,2018-11-16 15:59:09,Raymond James,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+635,2018-11-16 15:49:25,BMO Capital,Market Perform,Market Perform,main,NVDA,2024-10-24 13:07:28
+636,2018-11-16 15:49:24,Nomura,Neutral,Neutral,main,NVDA,2024-10-24 13:07:28
+637,2018-11-16 15:15:05,Wells Fargo,Outperform,Outperform,main,NVDA,2024-10-24 13:07:28
+638,2018-11-16 15:15:04,Barclays,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+639,2018-11-16 14:57:35,Mizuho,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+640,2018-11-16 14:33:41,Deutsche Bank,Hold,Hold,main,NVDA,2024-10-24 13:07:28
+641,2018-11-16 12:16:41,Goldman Sachs,Buy,Conviction Buy,down,NVDA,2024-10-24 13:07:28
+642,2018-11-16 11:47:26,B. Riley Securities,Neutral,Buy,down,NVDA,2024-10-24 13:07:28
+643,2018-11-13 13:39:54,B. Riley Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+644,2018-11-13 11:44:15,Susquehanna,Positive,Neutral,up,NVDA,2024-10-24 13:07:28
+645,2018-11-12 17:31:22,Citigroup,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+646,2018-11-08 17:33:24,Morgan Stanley,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+647,2018-10-30 10:27:09,JP Morgan,Overweight,Neutral,up,NVDA,2024-10-24 13:07:28
+648,2018-09-25 10:19:45,Keybanc,Sector Weight,,init,NVDA,2024-10-24 13:07:28
+649,2018-08-17 11:23:55,Oppenheimer,Outperform,Perform,up,NVDA,2024-10-24 13:07:28
+650,2018-08-17 11:02:44,Stifel,Hold,Hold,main,NVDA,2024-10-24 13:07:28
+651,2018-08-15 11:19:06,Wells Fargo,Outperform,Underperform,up,NVDA,2024-10-24 13:07:28
+652,2018-06-26 13:20:07,FBN Securities,Outperform,,init,NVDA,2024-10-24 13:07:28
+653,2018-06-26 11:08:14,Benchmark,Buy,,init,NVDA,2024-10-24 13:07:28
+654,2018-05-17 20:37:04,Cowen & Co.,Outperform,,init,NVDA,2024-10-24 13:07:28
+655,2018-05-11 19:43:26,UBS,Neutral,Neutral,main,NVDA,2024-10-24 13:07:28
+656,2018-05-11 19:09:24,B. Riley Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+657,2018-05-11 18:37:51,Barclays,Overweight,Overweight,main,NVDA,2024-10-24 13:07:28
+658,2018-05-08 12:02:42,Deutsche Bank,Hold,Hold,main,NVDA,2024-10-24 13:07:28
+659,2018-05-03 10:19:46,Barclays,Overweight,Equal-Weight,up,NVDA,2024-10-24 13:07:28
+660,2018-04-10 12:58:35,Morgan Stanley,Overweight,Equal-Weight,up,NVDA,2024-10-24 13:07:28
+661,2018-04-09 20:39:53,Morgan Stanley,Overweight,Equal-Weight,up,NVDA,2024-10-24 13:07:28
+662,2018-04-05 11:50:27,UBS,Neutral,,init,NVDA,2024-10-24 13:07:28
+663,2018-02-09 16:52:13,BMO Capital,Market Perform,Market Perform,main,NVDA,2024-10-24 13:07:28
+664,2018-02-09 16:30:09,B. Riley Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+665,2018-02-09 16:11:36,Morgan Stanley,Equal-Weight,Equal-Weight,main,NVDA,2024-10-24 13:07:28
+666,2018-02-09 13:50:30,Deutsche Bank,Hold,Hold,main,NVDA,2024-10-24 13:07:28
+667,2018-02-09 13:15:55,Citigroup,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+668,2017-11-17 13:42:20,Canaccord Genuity,Buy,,main,NVDA,2024-10-24 13:07:28
+669,2017-11-13 12:22:28,BMO Capital,Market Perform,Underperform,up,NVDA,2024-10-24 13:07:28
+670,2017-11-10 17:18:21,Barclays,Equal-Weight,,main,NVDA,2024-10-24 13:07:28
+671,2017-11-10 16:33:07,B of A Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+672,2017-11-10 14:07:04,BMO Capital,Underperform,,main,NVDA,2024-10-24 13:07:28
+673,2017-11-10 13:20:18,Loop Capital,Buy,,main,NVDA,2024-10-24 13:07:28
+674,2017-11-10 13:20:17,Morgan Stanley,Equal-Weight,,main,NVDA,2024-10-24 13:07:28
+675,2017-11-10 12:50:34,Nomura,Neutral,Reduce,up,NVDA,2024-10-24 13:07:28
+676,2017-11-08 13:58:11,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+677,2017-10-04 16:49:29,Barclays,Equal-Weight,,main,NVDA,2024-10-24 13:07:28
+678,2017-09-18 16:05:58,B of A Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+679,2017-08-14 15:25:37,Canaccord Genuity,Buy,,main,NVDA,2024-10-24 13:07:28
+680,2017-08-11 18:25:23,Citigroup,Buy,,main,NVDA,2024-10-24 13:07:28
+681,2017-08-11 16:42:29,Nomura,Reduce,,main,NVDA,2024-10-24 13:07:28
+682,2017-08-11 12:39:48,Barclays,Equal-Weight,,main,NVDA,2024-10-24 13:07:28
+683,2017-07-12 10:43:45,SunTrust Robinson Humphrey,Buy,Neutral,up,NVDA,2024-10-24 13:07:28
+684,2017-07-10 07:08:09,Jefferies,Buy,,main,NVDA,2024-10-24 13:07:28
+685,2017-06-20 10:24:04,Pacific Crest,Sector Weight,Underweight,up,NVDA,2024-10-24 13:07:28
+686,2017-05-19 11:22:48,Bernstein,Outperform,,init,NVDA,2024-10-24 13:07:28
+687,2017-04-04 10:26:57,Pacific Crest,Underweight,,down,NVDA,2024-10-24 13:07:28
+688,2017-03-31 10:20:09,Macquarie,Neutral,,init,NVDA,2024-10-24 13:07:28
+689,2017-02-23 12:16:10,BMO Capital,Underperform,Market Perform,down,NVDA,2024-10-24 13:07:28
+690,2017-02-22 21:37:14,Nomura,Reduce,Buy,down,NVDA,2024-10-24 13:07:28
+691,2017-02-06 12:38:11,Roth Capital,Neutral,Buy,down,NVDA,2024-10-24 13:07:28
+692,2016-12-20 11:21:48,Mizuho,Buy,,main,NVDA,2024-10-24 13:07:28
+693,2016-12-14 12:22:40,Evercore ISI Group,Buy,Hold,up,NVDA,2024-10-24 13:07:28
+694,2016-12-13 14:14:08,Loop Capital,Buy,,init,NVDA,2024-10-24 13:07:28
+695,2016-11-22 17:53:42,MKM Partners,Buy,,main,NVDA,2024-10-24 13:07:28
+696,2016-11-14 12:17:59,Needham,Buy,Hold,up,NVDA,2024-10-24 13:07:28
+697,2016-11-11 09:07:04,Barclays,Equal-Weight,Underweight,up,NVDA,2024-10-24 13:07:28
+698,2016-11-02 10:06:13,Citigroup,Buy,,init,NVDA,2024-10-24 13:07:28
+699,2016-10-25 04:00:00,B. Riley Securities,Buy,Buy,main,NVDA,2024-10-24 13:07:28
+700,2016-09-20 11:31:54,Susquehanna,Neutral,,init,NVDA,2024-10-24 13:07:28
+701,2016-09-20 06:29:00,SunTrust Robinson Humphrey,Neutral,,init,NVDA,2024-10-24 13:07:28
+702,2016-08-15 14:53:01,Argus Research,Buy,,main,NVDA,2024-10-24 13:07:28
+703,2016-08-12 12:36:24,UBS,Buy,,main,NVDA,2024-10-24 13:07:28
+704,2016-08-12 12:36:22,Jefferies,Buy,,main,NVDA,2024-10-24 13:07:28
+705,2016-08-12 12:20:44,Goldman Sachs,Buy,,main,NVDA,2024-10-24 13:07:28
+706,2016-08-12 11:43:24,Barclays,Underweight,,main,NVDA,2024-10-24 13:07:28
+707,2016-08-12 11:15:11,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+708,2016-08-12 10:27:21,RBC Capital,Outperform,Sector Perform,up,NVDA,2024-10-24 13:07:28
+709,2016-08-10 12:24:20,Barclays,Underweight,,main,NVDA,2024-10-24 13:07:28
+710,2016-08-08 11:00:40,Jefferies,Buy,,main,NVDA,2024-10-24 13:07:28
+711,2016-07-15 11:45:10,Wells Fargo,Underperform,Market Perform,down,NVDA,2024-10-24 13:07:28
+712,2016-07-15 11:44:17,Mizuho,Buy,,init,NVDA,2024-10-24 13:07:28
+713,2016-06-13 13:04:26,Nomura,Buy,Neutral,up,NVDA,2024-10-24 13:07:28
+714,2016-06-02 07:56:10,Goldman Sachs,Buy,,init,NVDA,2024-10-24 13:07:28
+715,2016-05-13 16:46:21,Jefferies,Buy,,main,NVDA,2024-10-24 13:07:28
+716,2016-05-13 16:46:20,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+717,2016-05-13 16:32:47,Barclays,Underweight,,main,NVDA,2024-10-24 13:07:28
+718,2016-05-13 11:24:29,Topeka Capital,Buy,Hold,up,NVDA,2024-10-24 13:07:28
+719,2016-05-13 10:53:24,Roth Capital,Buy,Neutral,up,NVDA,2024-10-24 13:07:28
+720,2016-04-06 16:03:34,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+721,2016-04-06 11:13:15,Stifel,Neutral,Buy,down,NVDA,2024-10-24 13:07:28
+722,2016-04-04 11:05:54,Jefferies,Buy,,main,NVDA,2024-10-24 13:07:28
+723,2016-03-18 11:17:25,Argus Research,Buy,,init,NVDA,2024-10-24 13:07:28
+724,2016-02-18 19:42:19,B. Riley Securities,Buy,,main,NVDA,2024-10-24 13:07:28
+725,2016-02-18 16:37:04,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+726,2016-01-14 10:22:56,Barclays,Underweight,Equal-Weight,down,NVDA,2024-10-24 13:07:28
+727,2015-11-16 10:26:42,Canaccord Genuity,Buy,Hold,up,NVDA,2024-10-24 13:07:28
+728,2015-11-06 19:48:12,Canaccord Genuity,Hold,,main,NVDA,2024-10-24 13:07:28
+729,2015-11-06 15:01:31,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+730,2015-11-06 11:55:36,MKM Partners,Buy,Neutral,up,NVDA,2024-10-24 13:07:28
+731,2015-11-06 11:13:20,Wedbush,Outperform,,main,NVDA,2024-10-24 13:07:28
+732,2015-11-06 10:34:10,Morgan Stanley,Equal-Weight,,main,NVDA,2024-10-24 13:07:28
+733,2015-11-06 10:31:47,Roth Capital,Neutral,,main,NVDA,2024-10-24 13:07:28
+734,2015-11-03 12:39:16,Needham,Hold,Buy,down,NVDA,2024-10-24 13:07:28
+735,2015-10-30 09:37:23,Morgan Stanley,Equal-Weight,Underweight,up,NVDA,2024-10-24 13:07:28
+736,2015-10-12 13:07:25,Roth Capital,Neutral,,init,NVDA,2024-10-24 13:07:28
+737,2015-09-17 09:52:56,Jefferies,Buy,Hold,up,NVDA,2024-10-24 13:07:28
+738,2015-08-07 17:17:31,Canaccord Genuity,Hold,,main,NVDA,2024-10-24 13:07:28
+739,2015-08-07 15:00:00,Stifel,Buy,,main,NVDA,2024-10-24 13:07:28
+740,2015-08-07 12:18:30,Roth Capital,Buy,Neutral,up,NVDA,2024-10-24 13:07:28
+741,2015-08-07 11:16:45,Morgan Stanley,Underweight,,main,NVDA,2024-10-24 13:07:28
+742,2015-08-03 11:30:56,Macquarie,Outperform,Neutral,up,NVDA,2024-10-24 13:07:28
+743,2015-06-17 13:05:37,Tigress Financial,Buy,Neutral,up,NVDA,2024-10-24 13:07:28
+744,2015-06-10 12:04:11,Nomura,Neutral,Buy,down,NVDA,2024-10-24 13:07:28
+745,2015-05-08 13:00:00,Stifel,Buy,,main,NVDA,2024-10-24 13:07:28
+746,2015-05-08 12:12:44,Roth Capital,Neutral,Buy,down,NVDA,2024-10-24 13:07:28
+747,2015-03-23 10:04:27,Goldman Sachs,Sell,Neutral,down,NVDA,2024-10-24 13:07:28
+748,2015-03-10 10:58:31,B of A Securities,Buy,Neutral,up,NVDA,2024-10-24 13:07:28
+749,2015-02-12 14:00:00,Stifel,Buy,,main,NVDA,2024-10-24 13:07:28
+750,2014-12-19 11:54:08,B of A Securities,Neutral,Underperform,up,NVDA,2024-10-24 13:07:28
+751,2014-11-25 14:00:00,Nomura,Buy,,main,NVDA,2024-10-24 13:07:28
+752,2014-11-07 14:00:00,JP Morgan,Neutral,,main,NVDA,2024-10-24 13:07:28
+753,2014-11-07 13:00:00,Stifel,Buy,,main,NVDA,2024-10-24 13:07:28
+754,2014-11-03 14:43:22,Pacific Crest,Sector Perform,Underperform,up,NVDA,2024-10-24 13:07:28
+755,2014-08-08 20:00:00,Nomura,Buy,,main,NVDA,2024-10-24 13:07:28
+756,2014-08-08 10:54:25,Needham,Buy,Hold,up,NVDA,2024-10-24 13:07:28
+757,2014-06-23 10:14:34,Pacific Crest,Underperform,Sector Perform,down,NVDA,2024-10-24 13:07:28
+758,2014-06-19 11:08:30,B of A Securities,Underperform,Neutral,down,NVDA,2024-10-24 13:07:28
+759,2014-05-19 10:14:30,RBC Capital,Outperform,Sector Perform,up,NVDA,2024-10-24 13:07:28
+760,2014-05-09 07:23:27,Stifel,Buy,,main,NVDA,2024-10-24 13:07:28
+761,2014-05-09 06:31:35,JP Morgan,Neutral,,main,NVDA,2024-10-24 13:07:28
+762,2014-05-09 06:03:06,Jefferies,Hold,,main,NVDA,2024-10-24 13:07:28
+763,2014-05-09 04:47:01,Citigroup,Hold,,main,NVDA,2024-10-24 13:07:28
+764,2014-04-10 21:55:53,ISI Group,Neutral,,init,NVDA,2024-10-24 13:07:28
+765,2014-04-01 12:00:00,JMP Securities,Market Outperform,Market Perform,up,NVDA,2024-10-24 13:07:28
+766,2014-03-21 12:41:26,CLSA,Underperform,,init,NVDA,2024-10-24 13:07:28
+767,2014-03-19 10:46:47,Stifel,Buy,,main,NVDA,2024-10-24 13:07:28
+768,2014-02-13 21:00:00,B. Riley Securities,Buy,Neutral,up,NVDA,2024-10-24 13:07:28
+769,2014-02-13 12:35:18,FBR Capital,Market Perform,,main,NVDA,2024-10-24 13:07:28
+770,2014-02-13 12:34:33,Stifel,Buy,,main,NVDA,2024-10-24 13:07:28
+771,2014-02-03 21:00:00,Susquehanna,Neutral,Negative,up,NVDA,2024-10-24 13:07:28
+772,2014-01-21 11:24:03,Evercore ISI Group,Equal-weight,Underweight,up,NVDA,2024-10-24 13:07:28
+773,2014-01-09 13:30:00,Canaccord Genuity,Hold,Buy,down,NVDA,2024-10-24 13:07:28
+774,2013-11-18 11:22:32,Morgan Stanley,Underweight,Equal-weight,down,NVDA,2024-10-24 13:07:28
+775,2013-11-08 13:39:33,FBR Capital,Market Perform,,main,NVDA,2024-10-24 13:07:28
+776,2013-10-11 11:25:45,Macquarie,Underperform,Neutral,down,NVDA,2024-10-24 13:07:28
+777,2013-08-09 11:34:06,Nomura,Buy,,main,NVDA,2024-10-24 13:07:28
+778,2013-07-31 11:56:27,Wells Fargo,Market Perform,Outperform,down,NVDA,2024-10-24 13:07:28
+779,2013-05-23 11:49:44,Topeka Capital,Hold,,init,NVDA,2024-10-24 13:07:28
+780,2013-03-11 10:46:00,Susquehanna,Negative,Neutral,down,NVDA,2024-10-24 13:07:28
+781,2013-02-14 14:29:44,Needham,Hold,Buy,down,NVDA,2024-10-24 13:07:28
+782,2013-02-14 13:39:57,Stifel,Buy,,main,NVDA,2024-10-24 13:07:28
+783,2013-02-14 13:16:01,BMO Capital,Market Perform,,main,NVDA,2024-10-24 13:07:28
+784,2013-02-14 12:42:10,Nomura,Buy,,main,NVDA,2024-10-24 13:07:28
+785,2013-02-14 12:35:18,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+786,2013-02-12 13:11:56,FBR Capital,Market Perform,,main,NVDA,2024-10-24 13:07:28
+787,2013-01-03 17:23:39,Barclays,Equal-Weight,,main,NVDA,2024-10-24 13:07:28
+788,2012-12-05 12:10:33,Oppenheimer,Perform,Outperform,down,NVDA,2024-10-24 13:07:28
+789,2012-11-09 13:12:00,FBR Capital,Market Perform,,main,NVDA,2024-10-24 13:07:28
+790,2012-11-09 13:05:00,Nomura,Buy,,main,NVDA,2024-10-24 13:07:28
+791,2012-11-09 12:28:00,Jefferies,Hold,,main,NVDA,2024-10-24 13:07:28
+792,2012-11-07 17:14:00,Wedbush,Outperform,,main,NVDA,2024-10-24 13:07:28
+793,2012-11-06 15:35:00,UBS,Buy,,main,NVDA,2024-10-24 13:07:28
+794,2012-11-05 13:25:00,BMO Capital,Market Perform,,main,NVDA,2024-10-24 13:07:28
+795,2012-10-19 12:12:00,FBR Capital,Market Perform,Outperform,down,NVDA,2024-10-24 13:07:28
+796,2012-10-10 11:07:00,Deutsche Bank,Hold,,main,NVDA,2024-10-24 13:07:28
+797,2012-09-28 11:45:00,Brean Capital,Hold,,init,NVDA,2024-10-24 13:07:28
+798,2012-09-13 09:57:00,Citigroup,Neutral,,main,NVDA,2024-10-24 13:07:28
+799,2012-08-10 18:14:00,Barclays,Equal-Weight,,main,NVDA,2024-10-24 13:07:28
+800,2012-08-10 14:01:00,UBS,Buy,,main,NVDA,2024-10-24 13:07:28
+801,2012-08-10 12:16:00,Stifel,Buy,,main,NVDA,2024-10-24 13:07:28
+802,2012-08-10 11:57:00,FBR Capital,Outperform,,main,NVDA,2024-10-24 13:07:28
+803,2012-08-10 10:56:00,Wedbush,Outperform,,main,NVDA,2024-10-24 13:07:28
+804,2012-08-10 10:28:00,Jefferies,Hold,,main,NVDA,2024-10-24 13:07:28
+805,2012-08-10 10:21:00,Citigroup,Hold,,main,NVDA,2024-10-24 13:07:28
+806,2012-08-07 12:10:00,FBR Capital,Outperform,,main,NVDA,2024-10-24 13:07:28
+807,2012-07-10 13:13:00,Raymond James,Strong Buy,,main,NVDA,2024-10-24 13:07:28
+808,2012-06-28 12:50:00,Lazard,Neutral,,init,NVDA,2024-10-24 13:07:28
+809,2012-06-25 10:22:00,Canaccord Genuity,Buy,Hold,up,NVDA,2024-10-24 13:07:28
+810,2012-06-11 16:28:00,UBS,Buy,Neutral,up,NVDA,2024-10-24 13:07:28
+811,2012-05-31 10:53:00,Morgan Stanley,Equal-Weight,,init,NVDA,2024-10-24 13:07:28
+812,2012-05-14 15:27:00,Salman Partners,Buy,,main,NVDA,2024-10-24 13:07:28
+813,2012-05-14 10:19:00,Jefferies,Hold,,main,NVDA,2024-10-24 13:07:28
+814,2012-04-05 11:07:00,Cantor Fitzgerald,Buy,,init,NVDA,2024-10-24 13:07:28
+815,2012-02-16 12:29:00,Evercore ISI Group,Underweight,,main,NVDA,2024-10-24 13:07:28
+816,2012-02-16 11:34:00,B of A Securities,Neutral,Buy,down,NVDA,2024-10-24 13:07:28
+817,2012-02-13 12:27:00,FBR Capital,Outperform,Market Perform,up,NVDA,2024-10-24 13:07:28
