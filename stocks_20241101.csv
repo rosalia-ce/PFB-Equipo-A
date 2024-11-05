@@ -1,0 +1,58 @@
+,ticker,name,sector,industry,market_cap,full_time_employees,ipo_date,extraction_timestamp
+0,AAPL,Apple Inc.,Technology,Consumer Electronics,3381087961088.0,,1980-12-12,2024-11-01 20:29:33
+1,MSFT,Microsoft Corporation,Technology,Software - Infrastructure,3060940144640.0,228000.0,1986-03-13,2024-11-01 20:29:33
+2,GOOGL,Alphabet Inc.,Communication Services,Internet Content & Information,2101031075840.0,181269.0,2004-08-19,2024-11-01 20:29:33
+3,AMZN,"Amazon.com, Inc.",Consumer Cyclical,Internet Retail,2076974252032.0,1525000.0,1997-05-15,2024-11-01 20:29:33
+4,META,"Meta Platforms, Inc.",Communication Services,Internet Content & Information,1432748949504.0,72404.0,2012-05-18,2024-11-01 20:29:33
+5,TSLA,"Tesla, Inc.",Consumer Cyclical,Auto Manufacturers,799786467328.0,140473.0,2010-06-29,2024-11-01 20:29:33
+6,NVDA,NVIDIA Corporation,Technology,Semiconductors,3328227934208.0,29600.0,1999-01-22,2024-11-01 20:29:33
+7,INTC,Intel Corporation,Technology,Semiconductors,100335067136.0,124800.0,1971-10-13,2024-11-01 20:29:33
+8,ADBE,Adobe Inc.,Technology,Software - Infrastructure,212603387904.0,29945.0,1986-08-08,2024-11-01 20:29:33
+9,CSCO,"Cisco Systems, Inc.",Technology,Communication Equipment,221004890112.0,90400.0,1990-02-16,2024-11-01 20:29:33
+10,ORCL,Oracle Corporation,Technology,Software - Infrastructure,473130795008.0,159000.0,1986-03-12,2024-11-01 20:29:33
+11,CRM,"Salesforce, Inc.",Technology,Software - Application,281599344640.0,72682.0,2004-06-23,2024-11-01 20:29:33
+12,IBM,International Business Machines,Technology,Information Technology Services,192793116672.0,282200.0,1911-11-12,2024-11-01 20:29:33
+13,AMD,"Advanced Micro Devices, Inc.",Technology,Semiconductors,230844727296.0,26000.0,1972-09-18,2024-11-01 20:29:33
+14,NFLX,"Netflix, Inc.",Communication Services,Entertainment,324081713152.0,13000.0,2002-05-23,2024-11-01 20:29:33
+15,PYPL,"PayPal Holdings, Inc.",Financial Services,Credit Services,77566525440.0,27200.0,2015-07-20,2024-11-01 20:29:33
+16,SQ,"Block, Inc.",Technology,Software - Infrastructure,44283342848.0,12985.0,2015-11-19,2024-11-01 20:29:33
+17,TWTR,,,,,,2013-11-07,2024-11-01 20:29:33
+18,SNPS,"Synopsys, Inc.",Technology,Software - Infrastructure,79713378304.0,20300.0,2000-01-24,2024-11-01 20:29:33
+19,ATVI,,,,,,2003-08-09,2024-11-01 20:29:33
+20,AVGO,Broadcom Inc.,Technology,Semiconductors,790916038656.0,20000.0,2016-09-14,2024-11-01 20:29:33
+21,NOW,"ServiceNow, Inc.",Technology,Software - Application,194780774400.0,22668.0,2012-06-28,2024-11-01 20:29:33
+22,QCOM,QUALCOMM Incorporated,Technology,Semiconductors,183542628352.0,50000.0,1991-07-11,2024-11-01 20:29:33
+23,TXN,Texas Instruments Incorporated,Technology,Semiconductors,187113947136.0,34000.0,1953-01-01,2024-11-01 20:29:33
+24,INTU,Intuit Inc.,Technology,Software - Application,174560264192.0,18800.0,1993-03-24,2024-11-01 20:29:33
+25,UBER,"Uber Technologies, Inc.",Technology,Software - Application,155222409216.0,30400.0,2019-05-10,2024-11-01 20:29:33
+26,AMAT,"Applied Materials, Inc.",Technology,Semiconductor Equipment & Materials,151550181376.0,35200.0,1980-06-19,2024-11-01 20:29:33
+27,ANET,"Arista Networks, Inc.",Technology,Computer Hardware,123774705664.0,4023.0,2015-06-27,2024-11-01 20:29:33
+28,PANW,"Palo Alto Networks, Inc.",Technology,Software - Infrastructure,118739755008.0,15289.0,2012-07-20,2024-11-01 20:29:33
+29,MU,"Micron Technology, Inc.",Technology,Semiconductors,110596923392.0,48000.0,1984-03-06,2024-11-01 20:29:33
+30,ADP,"Automatic Data Processing, Inc.",Technology,Software - Application,117466521600.0,64000.0,1961-10-13,2024-11-01 20:29:33
+31,FI,"Fiserv, Inc.",Technology,Information Technology Services,114910248960.0,42000.0,,2024-11-01 20:29:33
+32,ADI,"Analog Devices, Inc.",Technology,Semiconductors,111902072832.0,26000.0,2000-08-08,2024-11-01 20:29:33
+33,PLTR,Palantir Technologies Inc.,Technology,Software - Infrastructure,94433804288.0,3661.0,2020-09-30,2024-11-01 20:29:33
+34,LRCX,Lam Research Corporation,Technology,Semiconductor Equipment & Materials,96398819328.0,17700.0,1996-11-06,2024-11-01 20:29:33
+35,KLAC,KLA Corporation,Technology,Semiconductor Equipment & Materials,90145751040.0,15000.0,1995-08-01,2024-11-01 20:29:33
+36,DELL,Dell Technologies Inc.,Technology,Computer Hardware,91512201216.0,120000.0,2018-12-28,2024-11-01 20:29:33
+37,APH,Amphenol Corporation,Technology,Electronic Components,82096013312.0,95000.0,2011-07-06,2024-11-01 20:29:33
+38,MSI,"Motorola Solutions, Inc.",Technology,Communication Equipment,75801698304.0,21000.0,2006-12-01,2024-11-01 20:29:33
+39,CRWD,"CrowdStrike Holdings, Inc.",Technology,Software - Infrastructure,74134683648.0,9219.0,2019-09-20,2024-11-01 20:29:33
+40,MRVL,"Marvell Technology, Inc.",Technology,Semiconductors,72977350656.0,6511.0,2000-11-17,2024-11-01 20:29:33
+41,CDNS,"Cadence Design Systems, Inc.",Technology,Software - Application,77356285952.0,12703.0,1983-03-29,2024-11-01 20:29:33
+42,WDAY,"Workday, Inc.",Technology,Software - Application,63301873664.0,19908.0,2012-10-09,2024-11-01 20:29:33
+43,FTNT,"Fortinet, Inc.",Technology,Software - Infrastructure,60163842048.0,13527.0,2009-08-06,2024-11-01 20:29:33
+44,ADSK,"Autodesk, Inc.",Technology,Software - Application,61859704832.0,14100.0,1985-12-12,2024-11-01 20:29:33
+45,ROP,"Roper Technologies, Inc.",Technology,Software - Application,58009669632.0,16800.0,2000-08-10,2024-11-01 20:29:33
+46,NXPI,NXP Semiconductors N.V.,Technology,Semiconductors,60893921280.0,34200.0,2012-08-02,2024-11-01 20:29:33
+47,TTD,"The Trade Desk, Inc.",Technology,Software - Application,58958409728.0,3115.0,2016-09-21,2024-11-01 20:29:33
+48,APP,Applovin Corporation,Technology,Software - Application,54937165824.0,1717.0,,2024-11-01 20:29:33
+49,PAYX,"Paychex, Inc.",Technology,Software - Application,50101399552.0,16000.0,1971-08-14,2024-11-01 20:29:33
+50,TEAM,Atlassian Corporation,Technology,Software - Application,58794135552.0,12157.0,2018-09-25,2024-11-01 20:29:33
+51,FIS,Fidelity National Information S,Technology,Information Technology Services,48759963648.0,60000.0,1968-01-08,2024-11-01 20:29:33
+52,FICO,Fair Isaac Corporation,Technology,Software - Application,48979628032.0,3588.0,1986-04-04,2024-11-01 20:29:33
+53,TEL,TE Connectivity plc,Technology,Electronic Components,45182648320.0,85000.0,2016-01-05,2024-11-01 20:29:33
+54,MSTR,MicroStrategy Incorporated,Technology,Software - Application,46287941632.0,1934.0,2006-01-26,2024-11-01 20:29:33
+55,MPWR,"Monolithic Power Systems, Inc.",Technology,Semiconductors,37367640064.0,3564.0,2007-11-02,2024-11-01 20:29:33
+56,DDOG,"Datadog, Inc.",Technology,Software - Application,41594441728.0,5200.0,2019-09-19,2024-11-01 20:29:33

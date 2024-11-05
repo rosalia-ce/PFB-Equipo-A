@@ -53,33 +53,33 @@ else:
 # Agregar los filtros solo si df no es None
 if stocks_data:
     # Sidebar
-    st.sidebar.image("/Users/DATA/Desktop/PFB-Equipo-A/imagenes para streamlit /yahoo-logo.png", caption="Descripción general y resumida")
-    
+    st.sidebar.image("/Users/DATA/Desktop/PFB-Equipo-A/imagenes para streamlit /OIP.jpeg", caption="Proporcionamos acceso a datos financieros en tiempo real, incluyendo cotizaciones de acciones, información sobre fondos, índices, divisas y criptomonedas")
+
     # Filtros en el sidebar
     st.sidebar.header("Please filter")
     
     ticker = st.sidebar.multiselect(
         "SELECT ticker",
         options=df["ticker"].unique(),
-        default=df["ticker"].unique(),
+        default=[],
     )
     
     name = st.sidebar.multiselect(
         "SELECT name",
         options=df["name"].unique(),
-        default=df["name"].unique(),
+        default=[],
     )
     
     sector = st.sidebar.multiselect(
         "SELECT sector",
         options=df["sector"].unique(),
-        default=df["sector"].unique(),
+        default=[],
     )
     
     industry = st.sidebar.multiselect(
         "SELECT industry",
         options=df["industry"].unique(),
-        default=df["industry"].unique(),
+        default=[],
     )
 
     # Aplicar filtros al df
@@ -142,7 +142,63 @@ st.info("A - Resume Table - filter by year and month")
 #st.table(df)
 st.info("B - KPI (rentabilidad)")
 
-#st.dataframe(dir(st))
 
-st.write("csv")
-#st.dataframe(df)
+
+#ROI
+# Configuración de la conexión a la base de datos
+def create_connection():
+    connection = mysql.connector.connect(
+        host='localhost',  
+        user='root',  
+        password='Elisa17',  
+        database='yfinance_stocks'  
+    )
+    return connection
+
+# Obtener datos históricos de precios
+def get_historical_prices():
+    connection = create_connection()
+    cursor = connection.cursor()
+    query = "SELECT ticker, date, open, close FROM historical_prices"
+    cursor.execute(query)
+    result = cursor.fetchall()
+    cursor.close()
+    connection.close()
+    
+    # Convertir a DataFrame
+    df = pd.DataFrame(result, columns=["ticker", "date", "open", "close"])
+    df["date"] = pd.to_datetime(df["date"])  # Convertir columna de fecha
+    return df
+
+# Función para calcular el ROI
+def calculate_roi(df, ticker):
+    df_ticker = df[df["ticker"] == ticker].sort_values(by="date")
+    
+    if not df_ticker.empty:
+        # ROI como porcentaje
+        roi = ((df_ticker["close"].iloc[-1] - df_ticker["open"].iloc[0]) / df_ticker["open"].iloc[0]) * 100
+        return roi
+    else:
+        return None
+
+# Cargar datos
+st.header("6 · ROI Calculation")
+historical_data = get_historical_prices()
+
+# Seleccionar ticker
+tickers = historical_data["ticker"].unique()
+selected_ticker = st.selectbox("Select Ticker for ROI Calculation", tickers)
+
+# Calcular ROI para el ticker seleccionado
+roi_value = calculate_roi(historical_data, selected_ticker)
+if roi_value is not None:
+    st.write(f"ROI for {selected_ticker}: {roi_value:.2f}%")
+else:
+    st.write("No data available for selected ticker")
+
+# Gráfico del precio a lo largo del tiempo para el ticker seleccionado
+st.write(f"Price Evolution for {selected_ticker}")
+fig = px.line(historical_data[historical_data["ticker"] == selected_ticker], x="date", y="close",
+              title=f"Price Evolution - {selected_ticker}")
+st.plotly_chart(fig)
+
