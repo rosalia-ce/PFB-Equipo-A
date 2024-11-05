@@ -3,7 +3,7 @@ import mysql.connector
 import pandas as pd
 
 st.set_page_config(page_title="Dashboard", page_icon="🌐", layout="wide")
-st.subheader("💰 API Yfinance")
+st.subheader("💰 API")
 st.markdown("##")
 
 st.title("Datos de la tabla Stocks")
@@ -32,7 +32,7 @@ def get_stocks():
     
     return result
 
-# Cargar los datos automáticamente al iniciar la aplicación
+
 stocks_data = get_stocks()
 if stocks_data:
     # Convertir datos a un formato mostrable (por ejemplo, un DataFrame)
@@ -44,33 +44,33 @@ else:
 # Agregar los filtros solo si df no es None
 if stocks_data:
     # Sidebar
-    st.sidebar.image("data/yahoo-logo.png", caption="Online Analytics")
-    
+    st.sidebar.image("data/OIP.jpeg", caption="Proporcionamos acceso a datos financieros en tiempo real, incluyendo cotizaciones de acciones, información sobre fondos, índices, divisas y criptomonedas")
+
     # Filtros en el sidebar
     st.sidebar.header("Please filter")
     
     ticker = st.sidebar.multiselect(
         "SELECT ticker",
         options=df["ticker"].unique(),
-        default=df["ticker"].unique(),
+        default=[],
     )
     
     name = st.sidebar.multiselect(
         "SELECT name",
         options=df["name"].unique(),
-        default=df["name"].unique(),
+        default=[],
     )
     
     sector = st.sidebar.multiselect(
         "SELECT sector",
         options=df["sector"].unique(),
-        default=df["sector"].unique(),
+        default=[],
     )
     
     industry = st.sidebar.multiselect(
         "SELECT industry",
         options=df["industry"].unique(),
-        default=df["industry"].unique(),
+        default=[],
     )
 
     # Aplicar filtros al df
