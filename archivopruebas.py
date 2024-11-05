@@ -6,6 +6,7 @@ import requests
 from PIL import Image
 import mysql.connector
 
+
 st.set_page_config(page_title="Dashboard", page_icon="🌐", layout="wide")
 st.subheader("💰 API Yfinance")
 st.markdown("##")
@@ -98,21 +99,10 @@ if stocks_data:
 st.info("B - Description of the STOCK. 3 Graphs, 1 Year, monthly y daily ")
 
 
-#st.image(
- #   [image1, image2, image3], 
-#    caption=["descarga(2)",   "descarga(4)",   "descarga(5)"], 
- #   width=100
-#)
+
 
 st.header("2 · ASSET COMPARISON (Comparador de Activos: Herramienta para comparar el rendimiento de diferentes acciones)")
-#with st.expander (label= "Dataframe", expanded=false):
-# st.dataframe(pd.read_csv)
-#activos=["Rosalía","Camilo", "Noe"]
-#choice=st.selectbox(label="Select", options=select)
-#st.write(f"Select:{choice}")
-#rendimiento=["A","B","C"]
-#choice=st.selectbox(label="Select", options=select)
-#st.write(f"Select:{choice}")
+
 
 st.write(" Graph 5 Years, Year, Monthly")
 
@@ -159,16 +149,24 @@ def create_connection():
 def get_historical_prices():
     connection = create_connection()
     cursor = connection.cursor()
-    query = "SELECT ticker, date, open, close FROM historical_prices"
+    query = "SELECT * FROM historical_prices"
     cursor.execute(query)
     result = cursor.fetchall()
     cursor.close()
     connection.close()
     
-    # Convertir a DataFrame
-    df = pd.DataFrame(result, columns=["ticker", "date", "open", "close"])
-    df["date"] = pd.to_datetime(df["date"])  # Convertir columna de fecha
-    return df
+    return result
+
+
+def calculate_rsi(data, window=14):
+    delta = data['close'].diff()
+    gain = (delta.where(delta > 0, 0)).rolling(window=window).mean()
+    loss = (-delta.where(delta < 0, 0)).rolling(window=window).mean()
+
+    rs = gain / loss
+    rsi = 100 - (100 / (1 + rs))
+    
+    return rsi
 
 # Función para calcular el ROI
 def calculate_roi(df, ticker):
