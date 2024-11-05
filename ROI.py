@@ -59,3 +59,4 @@ st.write(f"Price Evolution for {selected_ticker}")
 fig = px.line(historical_data[historical_data["ticker"] == selected_ticker], x="date", y="close",
               title=f"Price Evolution - {selected_ticker}")
 st.plotly_chart(fig)
+
