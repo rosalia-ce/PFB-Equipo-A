@@ -6,7 +6,6 @@ import plotly.figure_factory as ff
 
 st.set_page_config(page_title="Dashboard", page_icon="🌐", layout="wide")
 st.subheader("💰 Stock Analysis")
-st.markdown("##")
 
 # Configuración de la conexión a la base de datos
 def create_connection():
@@ -79,7 +78,6 @@ if stocks_data:
     # Sidebar for user inputs and image
     st.sidebar.image("data/yfinance.png", caption="We provide access to real-time financial data, including stock quotes and price evolution for all companies")
 
-    
     st.sidebar.header("Please filter")
 
     # Select tickers for filtering
@@ -109,27 +107,45 @@ if stocks_data:
             df_grouped = df_filtered.resample('M', on='date').mean().reset_index()
 
         # Boxplot of closing prices
-        # Boxplot of closing prices
         if ticker:
-    # Concatenar tickers seleccionados para mostrarlos en el título
-         tickers_selected = ", ".join(ticker)
-         fig = px.box(df_grouped, x='ticker', y='close', 
-                 title=f'Boxplot of Closing Prices ({tickers_selected})',  # Modificar aquí
-                 labels={'close': 'Closing Prices', 'ticker': 'Company'},
-                 points="all")
-         st.plotly_chart(fig)
+            # Concatenar tickers seleccionados para mostrarlos en el título
+            tickers_selected = ", ".join(ticker)
+            # Usar columnas para separar el texto de la gráfica
+            col1, col2 = st.columns([1, 3])  # Proporciones de las columnas
 
+        st.markdown(f"### Dispersion measurements {tickers_selected}")
+        with col1:
+            
+            st.markdown("""
+    - **Mínimo**: el valor más bajo.
+    - **Primer cuartil (Q1)**:25% inferior de los datos.
+    - **Mediana (Q2)**:divide los datos en dos mitades.
+    - **Tercer cuartil (Q3)**:25% superior de los datos.
+    - **Máximo**: el valor más alto.
+    
+    Los **valores atípicos**, se encuentran fuera del rango esperado.
+    """)
+            
+        with col2:
+            fig = px.box(df_grouped, x='ticker', y='close', 
+                         title=f'Boxplot of Closing Prices Company ({tickers_selected})',
+                         labels={'close': 'Closing Prices', 'ticker': 'Company'},
+                         points="all")
+         
+
+            st.plotly_chart(fig)
+         
 
         # Calculate statistics
         stats = df_grouped.groupby('ticker')['close'].agg(['mean', 'median', 'std', 'min', 'max']).reset_index()
         st.write(stats)
 
         # Line chart of closing prices
-        st.header("Line Chart of Closing Prices")
+        #st.header("Line Chart of Closing Prices",)
         line_fig = px.line(df_grouped, x='date', y='close', color='ticker', 
-                           title='Line Chart of Closing Prices', 
-                           labels={'close': 'Closing Prices', 'date': 'Date', 'ticker': 'Ticker'})
-        line_fig.add_vrect(x0="2020-03-01", x1="2020-12-01", fillcolor="red", opacity=0.25, annotation_text="Covid")
+                           title=f'Closing Prices({tickers_selected})', 
+                           labels={'close': 'Closing Prices', 'date': 'Year', 'ticker': 'Company'})
+        line_fig.add_vrect(x0="2020-03-01", x1="2020-08-01", fillcolor="red", opacity=0.45, annotation_text="Covid-19     ")
         st.plotly_chart(line_fig)
 
         # RSI filter
@@ -201,12 +217,8 @@ if show_initial_graph and not df_historical_prices.empty:
                                labels={'close': 'Closing Price', 'date': 'Date', 'ticker': 'Company'})
     st.plotly_chart(all_tickers_fig)
 
-
-
-
-#thema
-hide_st_style="""
- 
+# CSS para ocultar elementos
+hide_st_style = """
 <style>
 #MainMenu{visibility:hidden;}
 footer{visibility:hidden;}
@@ -214,3 +226,5 @@ header{visibility:hidden;}
 </style>
 """
 
+st.markdown(hide_st_style,
+)
