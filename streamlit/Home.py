@@ -75,7 +75,7 @@ stocks_data = get_stocks()
 df_stocks = pd.DataFrame(stocks_data, columns=["ticker", "name", "sector", "industry", "market_cap", "full_time_employees", "ipo_date", "extraction_timestamp"])
 df_historical_prices = pd.DataFrame(historical_data, columns=["ticker", "date", "open", "close"])
 
-st.sidebar.image("data/yfinance.png", caption="We provide access to real-time financial data, including stock quotes and price evolution for technology companies.")
+st.sidebar.image("streamlit/data/yfinance.png", caption="We provide access to real-time financial data, including stock quotes and price evolution for technology companies.")
 
 # Menú de navegación
 
@@ -128,7 +128,7 @@ if st.session_state.page == "Página 1":
     # Agregar contenido para la Página 1 aquí
 
     # Cargar la imagen 
-    image_path = 'C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/streamlit/data/Banner.png'  
+    image_path = 'streamlit/data/Banner.png'  
     image = Image.open(image_path)
 
     # Crear columnas para centrar la imagen
@@ -466,7 +466,7 @@ elif st.session_state.page == "Página 5":
     with col1:
         mostrar_miembro_equipo(
             "Rosalía Crespo",
-            "C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/streamlit/data/Rosalia.jpg",
+            "streamlit/data/Rosalia.jpg",
             "https://www.linkedin.com/in/rosaliacrespo/",
             "https://github.com/rosalia-ce"
         )
@@ -475,7 +475,7 @@ elif st.session_state.page == "Página 5":
     with col2:
         mostrar_miembro_equipo(
             "Camilo León",
-            "C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/streamlit/data/Camilo.jpg",
+            "streamlit/data/Camilo.jpg",
             "https://www.linkedin.com/in/camilo-leon/",
             "https://github.com/andresvillafx"
         )
@@ -484,7 +484,7 @@ elif st.session_state.page == "Página 5":
     with col3:
         mostrar_miembro_equipo(
             "Noemí Hernando",
-            "C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/streamlit/data/Noe.jpg",
+            "streamlit/data/Noe.jpg",
             "https://www.linkedin.com/in/noemihernando/",
             "https://github.com/noehernando"
         )
