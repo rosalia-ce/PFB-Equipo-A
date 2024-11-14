@@ -12,21 +12,21 @@ import requests
 
 @st.cache_data
 def load_monthly_data():
-    return pd.read_csv("/data/monthly_historical.csv")
+    return pd.read_csv("streamlit/data/monthly_historical.csv")
 
 @st.cache_data
 def load_weekly_data():
-    return pd.read_csv("/data/weekly_historical.csv")
+    return pd.read_csv("streamlit/data/weekly_historical.csv")
 
 st.set_page_config(page_title="Yahoo Finance", page_icon="📈", layout="wide")
 
 
 def get_stocks():
-    df = pd.read_csv("/data/stocks.csv")
+    df = pd.read_csv("streamlit/data/stocks.csv")
     return df
 
 def get_historical_prices():
-    df = pd.read_csv("/data/historical_prices.csv")
+    df = pd.read_csv("streamlit/data/historical_prices.csv")
     return df
 
 def calculate_rsi(data, window=14):
