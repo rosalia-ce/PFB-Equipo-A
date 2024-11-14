@@ -12,11 +12,11 @@ import requests
 
 @st.cache_data
 def load_monthly_data():
-    return pd.read_csv('C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/MYPROJECT/monthly_historical.csv')
+    return pd.read_csv('C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/streamlit/data/monthly_historical.csv')
 
 @st.cache_data
 def load_weekly_data():
-    return pd.read_csv('C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/MYPROJECT/weekly_historical.csv')
+    return pd.read_csv('C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/streamlit/data/weekly_historical.csv')
 
 st.set_page_config(page_title="Yahoo Finance", page_icon="📈", layout="wide")
 
@@ -150,7 +150,7 @@ if st.session_state.page == "Página 1":
     # Agregar contenido para la Página 1 aquí
 
     # Cargar la imagen 
-    image_path = 'C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/MYPROJECT/Banner.png'  
+    image_path = 'C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/streamlit/data/Banner.png'  
     image = Image.open(image_path)
 
     # Crear columnas para centrar la imagen
@@ -488,7 +488,7 @@ elif st.session_state.page == "Página 5":
     with col1:
         mostrar_miembro_equipo(
             "Rosalía Crespo",
-            "C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/MYPROJECT/Rosalia.jpg",
+            "C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/streamlit/data/Rosalia.jpg",
             "https://www.linkedin.com/in/rosaliacrespo/",
             "https://github.com/rosalia-ce"
         )
@@ -497,7 +497,7 @@ elif st.session_state.page == "Página 5":
     with col2:
         mostrar_miembro_equipo(
             "Camilo León",
-            "C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/MYPROJECT/Camilo.jpg",
+            "C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/streamlit/data/Camilo.jpg",
             "https://www.linkedin.com/in/camilo-leon/",
             "https://github.com/andresvillafx"
         )
@@ -506,7 +506,7 @@ elif st.session_state.page == "Página 5":
     with col3:
         mostrar_miembro_equipo(
             "Noemí Hernando",
-            "C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/MYPROJECT/Noe.jpg",
+            "C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/streamlit/data/Noe.jpg",
             "https://www.linkedin.com/in/noemihernando/",
             "https://github.com/noehernando"
         )
