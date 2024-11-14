@@ -258,7 +258,10 @@ elif st.session_state.page == "Página 3":
                             """)
 
             with col2:
-                fig = px.violin(df_grouped, x='ticker', y='close', box=True, points="all",
+                df_grouped2 = df_grouped.copy()
+                df_grouped2["close"] = df_grouped2["close"].apply(lambda x : np.log1p(x))
+
+                fig = px.violin(df_grouped2, x='ticker', y='close', box=True, points="all",
                             labels={'close': 'Closing Prices', 'ticker': 'Company'})
 
                 st.plotly_chart(fig)
