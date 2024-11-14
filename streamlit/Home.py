@@ -92,7 +92,7 @@ st.sidebar.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.sidebar.markdown("<h1 style='text-align: center; color: white;'>🚀Menu</h1>", unsafe_allow_html=True)
+st.sidebar.markdown("<h1 style='text-align: center; color: black;'>🚀Menu</h1>", unsafe_allow_html=True)
 
 
 # Estilo para los títulos
