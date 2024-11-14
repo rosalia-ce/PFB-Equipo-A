@@ -12,43 +12,21 @@ import requests
 
 @st.cache_data
 def load_monthly_data():
-    return pd.read_csv('C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/streamlit/data/monthly_historical.csv')
+    return pd.read_csv("data/monthly_historical.csv")
 
 @st.cache_data
 def load_weekly_data():
-    return pd.read_csv('C:/Users/rce_5/OneDrive/Escritorio/proyecto/PFB-Equipo-A/streamlit/data/weekly_historical.csv')
+    return pd.read_csv("data/weekly_historical.csv")
 
 st.set_page_config(page_title="Yahoo Finance", page_icon="📈", layout="wide")
 
-def create_connection():
-    connection = mysql.connector.connect(
-        host='localhost',
-        user='root',
-        password='Hackaboss_2024',
-        database='yfinance_stocks'
-    )
-    return connection
 
 def get_stocks():
-    connection = create_connection()
-    cursor = connection.cursor()
-    query = "SELECT * FROM stocks"
-    cursor.execute(query)
-    result = cursor.fetchall()
-    cursor.close()
-    connection.close()
-    return result
+    df = pd.read_csv("data/stocks.csv")
+    return df
 
 def get_historical_prices():
-    connection = create_connection()
-    cursor = connection.cursor()
-    query = "SELECT ticker, date, open, close FROM historical_prices"
-    cursor.execute(query)
-    result = cursor.fetchall()
-    cursor.close()
-    connection.close()
-    df = pd.DataFrame(result, columns=["ticker", "date", "open", "close"])
-    df["date"] = pd.to_datetime(df["date"])
+    df = pd.read_csv("data/historical_prices.csv")
     return df
 
 def calculate_rsi(data, window=14):
