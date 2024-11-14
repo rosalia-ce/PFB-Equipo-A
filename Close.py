@@ -21,7 +21,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     mostrar_miembro_equipo(
         "Rosalía Crespo",
-        "/Users/DATA/Desktop/PFB-Equipo-A/Diseño sin título (3).jpg",
+        "/Users/DATA/Desktop/PFB-Equipo-A/Rosalia.jpg",
         "https://www.linkedin.com/in/rosaliacrespo/",
         "https://github.com/rosalia-ce"
     )
@@ -30,7 +30,7 @@ with col1:
 with col2:
     mostrar_miembro_equipo(
         "Camilo León",
-        "/Users/DATA/Desktop/PFB-Equipo-A/Diseño sin título (2).jpg",
+        "/Users/DATA/Desktop/PFB-Equipo-A/Camilo.jpg",
         "https://www.linkedin.com/in/camilo-leon/",
         "https://github.com/andresvillafx"
     )
@@ -39,7 +39,7 @@ with col2:
 with col3:
     mostrar_miembro_equipo(
         "Noemí Hernando",
-        "/Users/DATA/Desktop/PFB-Equipo-A/Diseño sin título (1).jpg",
+        "/Users/DATA/Desktop/PFB-Equipo-A/Noe.jpg",
         "https://www.linkedin.com/in/noemihernando/",
         "https://github.com/noehernando"
     )
